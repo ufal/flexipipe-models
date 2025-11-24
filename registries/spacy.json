@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-24T18:57:08.254617Z",
+  "last_updated": "2025-11-24T19:53:32.225932Z",
   "backend_version": ">=3.0.0",
   "sources": {
     "official": [
@@ -777,6 +777,34 @@
       }
     ],
     "flexipipe": [],
-    "community": []
+    "community": [
+      {
+        "model": "spacyturk/tr_floret_web_lg",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/spacyturk/tr_floret_web_lg",
+        "description": "Turkish pipeline with floret vectors (large). Community model from spacyturk.",
+        "source": "community"
+      },
+      {
+        "model": "spacyturk/tr_floret_web_md",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/spacyturk/tr_floret_web_md",
+        "description": "Turkish pipeline with floret vectors (medium). Community model from spacyturk.",
+        "source": "community"
+      },
+      {
+        "model": "HaoTUDa/spacy-taggers-oldfrench",
+        "language_iso": "fro",
+        "language_name": "Old French",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/HaoTUDa/spacy-taggers-oldfrench",
+        "description": "Old French tagger model. Community model from HaoTUDa.",
+        "source": "community"
+      }
+    ]
   }
 }
