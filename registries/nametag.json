@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-02-03T00:00:00Z",
+  "backend_version": "3",
+  "sources": {
+    "official": [
+      {
+        "model": "nametag3-multilingual-conll-250203",
+        "language_iso": "xx",
+        "language_name": "Multilingual",
+        "features": "ner",
+        "tasks": ["ner"],
+        "preferred": true,
+        "description": "NameTag 3 multilingual model trained on CoNLL data, supports all languages"
+      }
+    ],
+    "flexipipe": [],
+    "community": []
+  }
+}
+
