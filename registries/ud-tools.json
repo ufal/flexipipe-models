@@ -1,0 +1,11 @@
+{
+  "latest": "2.17",
+  "versions": {
+    "2.17": {
+      "release_date": "2025-11-14",
+      "notes": "UD 2.17 (Nov 2025) official validator bundle",
+      "download_url": "https://lindat.mff.cuni.cz/repository/download/b4fcb1e0-f4b2-4939-80f5-baeafda9e5c0/ud-tools-v2.17.tgz",
+      "checksum": null
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-11-27T00:00:00Z",
+  "backend_version": "any",
+  "sources": {
+    "official": [
+      {
+        "model": "treetagger-english-20211115",
+        "language_iso": "en",
+        "language_name": "english",
+        "features": "lemma,xpos",
+        "tasks": [
+          "lemmatize",
+          "tag"
+        ],
+        "components": [
+          "tagger"
+        ],
+        "preferred": true,
+        "download_url": "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/english.par.gz",
+        "parameter_file": "english.par",
+        "licence": "TreeTagger Free Software License",
+        "description": "Official TreeTagger parameter file for English (UTF-8)."
+      },
+      {
+        "model": "treetagger-german-20211115",
+        "language_iso": "de",
+        "language_name": "german",
+        "features": "lemma,xpos",
+        "tasks": [
+          "lemmatize",
+          "tag"
+        ],
+        "components": [
+          "tagger"
+        ],
+        "preferred": false,
+        "download_url": "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/german.par.gz",
+        "parameter_file": "german.par",
+        "licence": "TreeTagger Free Software License",
+        "description": "Official TreeTagger parameter file for German (STTS tagset)."
+      },
+      {
+        "model": "treetagger-french-20211115",
+        "language_iso": "fr",
+        "language_name": "french",
+        "features": "lemma,xpos",
+        "tasks": [
+          "lemmatize",
+          "tag"
+        ],
+        "components": [
+          "tagger"
+        ],
+        "preferred": false,
+        "download_url": "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/french.par.gz",
+        "parameter_file": "french.par",
+        "licence": "TreeTagger Free Software License",
+        "description": "Official TreeTagger parameter file for French."
+      },
+      {
+        "model": "treetagger-old-french-20211115",
+        "language_iso": "fro",
+        "language_name": "old french",
+        "features": "lemma,xpos",
+        "tasks": [
+          "lemmatize",
+          "tag"
+        ],
+        "components": [
+          "tagger"
+        ],
+        "preferred": false,
+        "download_url": "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/old-french.par.gz",
+        "parameter_file": "old-french.par",
+        "licence": "TreeTagger Free Software License",
+        "description": "TreeTagger parameter file for Old French (Profiterole)."
+      }
+    ],
+    "flexipipe": [],
+    "community": []
+  }
+}
+
