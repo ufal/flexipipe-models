@@ -1228,7 +1228,7 @@
       },
       {
         "model": "old_church_slavonic-proiel-ud-2.15-241121",
-        "language_iso": "ol",
+        "language_iso": "chu",
         "language_name": "old church slavonic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1241,7 +1241,7 @@
       },
       {
         "model": "old_east_slavic-birchbark-ud-2.15-241121",
-        "language_iso": "ol",
+        "language_iso": "chu",
         "language_name": "old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1254,7 +1254,7 @@
       },
       {
         "model": "old_east_slavic-rnc-ud-2.15-241121",
-        "language_iso": "ol",
+        "language_iso": "orv",
         "language_name": "old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1267,7 +1267,7 @@
       },
       {
         "model": "old_east_slavic-ruthenian-ud-2.15-241121",
-        "language_iso": "ol",
+        "language_iso": "orv",
         "language_name": "old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1280,7 +1280,7 @@
       },
       {
         "model": "old_east_slavic-torot-ud-2.15-241121",
-        "language_iso": "ol",
+        "language_iso": "orv",
         "language_name": "old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
