@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "last_updated": "2025-11-26T14:33:50Z",
+  "last_updated": "2025-12-09T13:18:57Z",
   "backend_version": "any",
   "sources": {
     "official": [
       {
-        "model": "afrikaans-afribooms-ud-2.15-241121",
+        "model": "afrikaans-afribooms-ud-2.17-251125",
         "language_iso": "af",
-        "language_name": "afrikaans",
+        "language_name": "Afrikaans",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -18,9 +18,9 @@
         "description": null
       },
       {
-        "model": "albanian-staf-ud-2.15-241121",
+        "model": "albanian-staf-ud-2.17-251125",
         "language_iso": "sq",
-        "language_name": "albanian",
+        "language_name": "Albanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -31,9 +31,9 @@
         "description": null
       },
       {
-        "model": "ancient_greek-perseus-ud-2.15-241121",
+        "model": "ancient_greek-perseus-ud-2.17-251125",
         "language_iso": "grc",
-        "language_name": "ancient greek",
+        "language_name": "Ancient greek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -44,9 +44,9 @@
         "description": null
       },
       {
-        "model": "ancient_greek-proiel-ud-2.15-241121",
+        "model": "ancient_greek-proiel-ud-2.17-251125",
         "language_iso": "grc",
-        "language_name": "ancient greek",
+        "language_name": "Ancient greek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -57,9 +57,9 @@
         "description": null
       },
       {
-        "model": "ancient_greek-ptnk-ud-2.15-241121",
+        "model": "ancient_greek-ptnk-ud-2.17-251125",
         "language_iso": "grc",
-        "language_name": "ancient greek",
+        "language_name": "Ancient greek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -70,9 +70,9 @@
         "description": null
       },
       {
-        "model": "ancient_hebrew-ptnk-ud-2.15-241121",
+        "model": "ancient_hebrew-ptnk-ud-2.17-251125",
         "language_iso": "hbo",
-        "language_name": "ancient hebrew",
+        "language_name": "Ancient hebrew",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -83,9 +83,9 @@
         "description": null
       },
       {
-        "model": "arabic-padt-ud-2.15-241121",
+        "model": "arabic-padt-ud-2.17-251125",
         "language_iso": "ar",
-        "language_name": "arabic",
+        "language_name": "Arabic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -96,9 +96,9 @@
         "description": null
       },
       {
-        "model": "armenian-armtdp-ud-2.15-241121",
+        "model": "armenian-armtdp-ud-2.17-251125",
         "language_iso": "hy",
-        "language_name": "armenian",
+        "language_name": "Armenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -109,9 +109,9 @@
         "description": null
       },
       {
-        "model": "armenian-bsut-ud-2.15-241121",
+        "model": "armenian-bsut-ud-2.17-251125",
         "language_iso": "hy",
-        "language_name": "armenian",
+        "language_name": "Armenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -122,9 +122,9 @@
         "description": null
       },
       {
-        "model": "basque-bdt-ud-2.15-241121",
+        "model": "basque-bdt-ud-2.17-251125",
         "language_iso": "eu",
-        "language_name": "basque",
+        "language_name": "Basque",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -135,9 +135,9 @@
         "description": null
       },
       {
-        "model": "belarusian-hse-ud-2.15-241121",
+        "model": "belarusian-hse-ud-2.17-251125",
         "language_iso": "be",
-        "language_name": "belarusian",
+        "language_name": "Belarusian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -148,9 +148,22 @@
         "description": null
       },
       {
-        "model": "bulgarian-btb-ud-2.15-241121",
+        "model": "bororo-bdt-ud-2.17-251125",
+        "language_iso": "bor",
+        "language_name": "Bororo",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "bulgarian-btb-ud-2.17-251125",
         "language_iso": "bg",
-        "language_name": "bulgarian",
+        "language_name": "Bulgarian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -161,9 +174,9 @@
         "description": null
       },
       {
-        "model": "catalan-ancora-ud-2.15-241121",
+        "model": "catalan-ancora-ud-2.17-251125",
         "language_iso": "ca",
-        "language_name": "catalan",
+        "language_name": "Catalan",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -174,9 +187,9 @@
         "description": null
       },
       {
-        "model": "chinese-gsd-ud-2.15-241121",
+        "model": "chinese-gsd-ud-2.17-251125",
         "language_iso": "zh",
-        "language_name": "chinese",
+        "language_name": "Chinese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -187,9 +200,9 @@
         "description": null
       },
       {
-        "model": "chinese-gsdsimp-ud-2.15-241121",
+        "model": "chinese-gsdsimp-ud-2.17-251125",
         "language_iso": "zh",
-        "language_name": "chinese",
+        "language_name": "Chinese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -200,9 +213,9 @@
         "description": null
       },
       {
-        "model": "classical_armenian-caval-ud-2.15-241121",
+        "model": "classical_armenian-caval-ud-2.17-251125",
         "language_iso": "xcl",
-        "language_name": "classical armenian",
+        "language_name": "Classical armenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -213,9 +226,9 @@
         "description": null
       },
       {
-        "model": "classical_chinese-kyoto-ud-2.15-241121",
-        "language_iso": "cl",
-        "language_name": "classical chinese",
+        "model": "classical_chinese-kyoto-ud-2.17-251125",
+        "language_iso": "lzh",
+        "language_name": "Classical chinese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -226,9 +239,9 @@
         "description": null
       },
       {
-        "model": "coptic-scriptorium-ud-2.15-241121",
+        "model": "coptic-bohairic-ud-2.17-251125",
         "language_iso": "cop",
-        "language_name": "coptic",
+        "language_name": "Coptic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -239,9 +252,22 @@
         "description": null
       },
       {
-        "model": "croatian-set-ud-2.15-241121",
+        "model": "coptic-scriptorium-ud-2.17-251125",
+        "language_iso": "cop",
+        "language_name": "Coptic",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "croatian-set-ud-2.17-251125",
         "language_iso": "hr",
-        "language_name": "croatian",
+        "language_name": "Croatian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -252,9 +278,9 @@
         "description": null
       },
       {
-        "model": "czech-cac-ud-2.15-241121",
+        "model": "czech-cac-ud-2.17-251125",
         "language_iso": "cs",
-        "language_name": "czech",
+        "language_name": "Czech",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -265,9 +291,9 @@
         "description": null
       },
       {
-        "model": "czech-cltt-ud-2.15-241121",
+        "model": "czech-cltt-ud-2.17-251125",
         "language_iso": "cs",
-        "language_name": "czech",
+        "language_name": "Czech",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -278,9 +304,9 @@
         "description": null
       },
       {
-        "model": "czech-fictree-ud-2.15-241121",
+        "model": "czech-fictree-ud-2.17-251125",
         "language_iso": "cs",
-        "language_name": "czech",
+        "language_name": "Czech",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -291,9 +317,9 @@
         "description": null
       },
       {
-        "model": "czech-pdt-ud-2.15-241121",
+        "model": "czech-pdtc-ud-2.17-251125",
         "language_iso": "cs",
-        "language_name": "czech",
+        "language_name": "Czech",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -304,9 +330,9 @@
         "description": null
       },
       {
-        "model": "danish-ddt-ud-2.15-241121",
+        "model": "danish-ddt-ud-2.17-251125",
         "language_iso": "da",
-        "language_name": "danish",
+        "language_name": "Danish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -317,9 +343,9 @@
         "description": null
       },
       {
-        "model": "dutch-alpino-ud-2.15-241121",
+        "model": "dutch-alpino-ud-2.17-251125",
         "language_iso": "nl",
-        "language_name": "dutch",
+        "language_name": "Dutch",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -330,9 +356,9 @@
         "description": null
       },
       {
-        "model": "dutch-lassysmall-ud-2.15-241121",
+        "model": "dutch-lassysmall-ud-2.17-251125",
         "language_iso": "nl",
-        "language_name": "dutch",
+        "language_name": "Dutch",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -343,9 +369,9 @@
         "description": null
       },
       {
-        "model": "english-atis-ud-2.15-241121",
-        "language_iso": "en",
-        "language_name": "english",
+        "model": "egyptian-ujaen-ud-2.17-251125",
+        "language_iso": "egy",
+        "language_name": "Egyptian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -356,9 +382,9 @@
         "description": null
       },
       {
-        "model": "english-eslspok-ud-2.15-241121",
+        "model": "english-atis-ud-2.17-251125",
         "language_iso": "en",
-        "language_name": "english",
+        "language_name": "English",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -369,9 +395,35 @@
         "description": null
       },
       {
-        "model": "english-ewt-ud-2.15-241121",
+        "model": "english-childes-ud-2.17-251125",
         "language_iso": "en",
-        "language_name": "english",
+        "language_name": "English",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "english-eslspok-ud-2.17-251125",
+        "language_iso": "en",
+        "language_name": "English",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "english-ewt-ud-2.17-251125",
+        "language_iso": "en",
+        "language_name": "English",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -382,9 +434,9 @@
         "description": null
       },
       {
-        "model": "english-gum-ud-2.15-241121",
+        "model": "english-gum-ud-2.17-251125",
         "language_iso": "en",
-        "language_name": "english",
+        "language_name": "English",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -395,9 +447,9 @@
         "description": null
       },
       {
-        "model": "english-lines-ud-2.15-241121",
+        "model": "english-lines-ud-2.17-251125",
         "language_iso": "en",
-        "language_name": "english",
+        "language_name": "English",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -408,9 +460,9 @@
         "description": null
       },
       {
-        "model": "english-partut-ud-2.15-241121",
+        "model": "english-partut-ud-2.17-251125",
         "language_iso": "en",
-        "language_name": "english",
+        "language_name": "English",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -421,9 +473,9 @@
         "description": null
       },
       {
-        "model": "erzya-jr-ud-2.15-241121",
-        "language_iso": "myv",
-        "language_name": "erzya",
+        "model": "erzya-jr-ud-2.17-251125",
+        "language_iso": "erzya",
+        "language_name": "Erzya",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -434,9 +486,9 @@
         "description": null
       },
       {
-        "model": "estonian-edt-ud-2.15-241121",
+        "model": "estonian-edt-ud-2.17-251125",
         "language_iso": "et",
-        "language_name": "estonian",
+        "language_name": "Estonian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -447,9 +499,9 @@
         "description": null
       },
       {
-        "model": "estonian-ewt-ud-2.15-241121",
+        "model": "estonian-ewt-ud-2.17-251125",
         "language_iso": "et",
-        "language_name": "estonian",
+        "language_name": "Estonian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -460,9 +512,9 @@
         "description": null
       },
       {
-        "model": "faroese-farpahc-ud-2.15-241121",
+        "model": "faroese-farpahc-ud-2.17-251125",
         "language_iso": "fo",
-        "language_name": "faroese",
+        "language_name": "Faroese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -473,9 +525,9 @@
         "description": null
       },
       {
-        "model": "finnish-ftb-ud-2.15-241121",
+        "model": "finnish-ftb-ud-2.17-251125",
         "language_iso": "fi",
-        "language_name": "finnish",
+        "language_name": "Finnish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -486,9 +538,9 @@
         "description": null
       },
       {
-        "model": "finnish-tdt-ud-2.15-241121",
+        "model": "finnish-tdt-ud-2.17-251125",
         "language_iso": "fi",
-        "language_name": "finnish",
+        "language_name": "Finnish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -499,9 +551,9 @@
         "description": null
       },
       {
-        "model": "french-gsd-ud-2.15-241121",
+        "model": "french-alts-ud-2.17-251125",
         "language_iso": "fr",
-        "language_name": "french",
+        "language_name": "French",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -512,9 +564,9 @@
         "description": null
       },
       {
-        "model": "french-parisstories-ud-2.15-241121",
+        "model": "french-gsd-ud-2.17-251125",
         "language_iso": "fr",
-        "language_name": "french",
+        "language_name": "French",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -525,9 +577,9 @@
         "description": null
       },
       {
-        "model": "french-partut-ud-2.15-241121",
+        "model": "french-parisstories-ud-2.17-251125",
         "language_iso": "fr",
-        "language_name": "french",
+        "language_name": "French",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -538,9 +590,9 @@
         "description": null
       },
       {
-        "model": "french-rhapsodie-ud-2.15-241121",
+        "model": "french-partut-ud-2.17-251125",
         "language_iso": "fr",
-        "language_name": "french",
+        "language_name": "French",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -551,9 +603,9 @@
         "description": null
       },
       {
-        "model": "french-sequoia-ud-2.15-241121",
+        "model": "french-rhapsodie-ud-2.17-251125",
         "language_iso": "fr",
-        "language_name": "french",
+        "language_name": "French",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -564,9 +616,22 @@
         "description": null
       },
       {
-        "model": "galician-ctg-ud-2.15-241121",
+        "model": "french-sequoia-ud-2.17-251125",
+        "language_iso": "fr",
+        "language_name": "French",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "galician-ctg-ud-2.17-251125",
         "language_iso": "gl",
-        "language_name": "galician",
+        "language_name": "Galician",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -577,9 +642,9 @@
         "description": null
       },
       {
-        "model": "galician-treegal-ud-2.15-241121",
+        "model": "galician-treegal-ud-2.17-251125",
         "language_iso": "gl",
-        "language_name": "galician",
+        "language_name": "Galician",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -590,9 +655,9 @@
         "description": null
       },
       {
-        "model": "georgian-glc-ud-2.15-241121",
+        "model": "georgian-glc-ud-2.17-251125",
         "language_iso": "ka",
-        "language_name": "georgian",
+        "language_name": "Georgian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -603,9 +668,22 @@
         "description": null
       },
       {
-        "model": "german-gsd-ud-2.15-241121",
+        "model": "georgian-gnc-ud-2.17-251125",
+        "language_iso": "ka",
+        "language_name": "Georgian",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "german-gsd-ud-2.17-251125",
         "language_iso": "de",
-        "language_name": "german",
+        "language_name": "German",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -616,9 +694,9 @@
         "description": null
       },
       {
-        "model": "german-hdt-ud-2.15-241121",
+        "model": "german-hdt-ud-2.17-251125",
         "language_iso": "de",
-        "language_name": "german",
+        "language_name": "German",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -629,9 +707,9 @@
         "description": null
       },
       {
-        "model": "gothic-proiel-ud-2.15-241121",
+        "model": "gothic-proiel-ud-2.17-251125",
         "language_iso": "got",
-        "language_name": "gothic",
+        "language_name": "Gothic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -642,9 +720,9 @@
         "description": null
       },
       {
-        "model": "greek-gdt-ud-2.15-241121",
-        "language_iso": "cpg",
-        "language_name": "greek",
+        "model": "greek-cretan-ud-2.17-251125",
+        "language_iso": "el",
+        "language_name": "Greek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -655,9 +733,9 @@
         "description": null
       },
       {
-        "model": "greek-gud-ud-2.15-241121",
-        "language_iso": "cpg",
-        "language_name": "greek",
+        "model": "greek-gdt-ud-2.17-251125",
+        "language_iso": "el",
+        "language_name": "Greek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -668,9 +746,35 @@
         "description": null
       },
       {
-        "model": "hebrew-htb-ud-2.15-241121",
+        "model": "greek-gud-ud-2.17-251125",
+        "language_iso": "el",
+        "language_name": "Greek",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "haitian_creole-adolphe-ud-2.17-251125",
+        "language_iso": "ht",
+        "language_name": "Haitian creole",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "hebrew-htb-ud-2.17-251125",
         "language_iso": "he",
-        "language_name": "hebrew",
+        "language_name": "Hebrew",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -681,9 +785,9 @@
         "description": null
       },
       {
-        "model": "hebrew-iahltknesset-ud-2.15-241121",
+        "model": "hebrew-iahltknesset-ud-2.17-251125",
         "language_iso": "he",
-        "language_name": "hebrew",
+        "language_name": "Hebrew",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -694,9 +798,9 @@
         "description": null
       },
       {
-        "model": "hebrew-iahltwiki-ud-2.15-241121",
+        "model": "hebrew-iahltwiki-ud-2.17-251125",
         "language_iso": "he",
-        "language_name": "hebrew",
+        "language_name": "Hebrew",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -707,9 +811,9 @@
         "description": null
       },
       {
-        "model": "hindi-hdtb-ud-2.15-241121",
+        "model": "hindi-hdtb-ud-2.17-251125",
         "language_iso": "hi",
-        "language_name": "hindi",
+        "language_name": "Hindi",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -720,9 +824,9 @@
         "description": null
       },
       {
-        "model": "hungarian-szeged-ud-2.15-241121",
+        "model": "hungarian-szeged-ud-2.17-251125",
         "language_iso": "hu",
-        "language_name": "hungarian",
+        "language_name": "Hungarian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -733,9 +837,9 @@
         "description": null
       },
       {
-        "model": "icelandic-gc-ud-2.15-241121",
+        "model": "icelandic-gc-ud-2.17-251125",
         "language_iso": "is",
-        "language_name": "icelandic",
+        "language_name": "Icelandic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -746,9 +850,9 @@
         "description": null
       },
       {
-        "model": "icelandic-icepahc-ud-2.15-241121",
+        "model": "icelandic-icepahc-ud-2.17-251125",
         "language_iso": "is",
-        "language_name": "icelandic",
+        "language_name": "Icelandic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -759,9 +863,9 @@
         "description": null
       },
       {
-        "model": "icelandic-modern-ud-2.15-241121",
+        "model": "icelandic-modern-ud-2.17-251125",
         "language_iso": "is",
-        "language_name": "icelandic",
+        "language_name": "Icelandic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -772,9 +876,9 @@
         "description": null
       },
       {
-        "model": "indonesian-csui-ud-2.15-241121",
+        "model": "indonesian-csui-ud-2.17-251125",
         "language_iso": "id",
-        "language_name": "indonesian",
+        "language_name": "Indonesian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -785,9 +889,9 @@
         "description": null
       },
       {
-        "model": "indonesian-gsd-ud-2.15-241121",
+        "model": "indonesian-gsd-ud-2.17-251125",
         "language_iso": "id",
-        "language_name": "indonesian",
+        "language_name": "Indonesian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -798,9 +902,9 @@
         "description": null
       },
       {
-        "model": "irish-idt-ud-2.15-241121",
+        "model": "irish-idt-ud-2.17-251125",
         "language_iso": "ga",
-        "language_name": "irish",
+        "language_name": "Irish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -811,9 +915,9 @@
         "description": null
       },
       {
-        "model": "irish-twittirish-ud-2.15-241121",
+        "model": "irish-twittirish-ud-2.17-251125",
         "language_iso": "ga",
-        "language_name": "irish",
+        "language_name": "Irish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -824,9 +928,9 @@
         "description": null
       },
       {
-        "model": "italian-isdt-ud-2.15-241121",
+        "model": "italian-isdt-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -837,9 +941,9 @@
         "description": null
       },
       {
-        "model": "italian-markit-ud-2.15-241121",
+        "model": "italian-markit-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -850,9 +954,9 @@
         "description": null
       },
       {
-        "model": "italian-old-ud-2.15-241121",
+        "model": "italian-old-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -863,9 +967,9 @@
         "description": null
       },
       {
-        "model": "italian-parlamint-ud-2.15-241121",
+        "model": "italian-parlamint-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -876,9 +980,9 @@
         "description": null
       },
       {
-        "model": "italian-partut-ud-2.15-241121",
+        "model": "italian-partut-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -889,9 +993,9 @@
         "description": null
       },
       {
-        "model": "italian-postwita-ud-2.15-241121",
+        "model": "italian-postwita-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -902,9 +1006,9 @@
         "description": null
       },
       {
-        "model": "italian-twittiro-ud-2.15-241121",
+        "model": "italian-twittiro-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -915,9 +1019,9 @@
         "description": null
       },
       {
-        "model": "italian-vit-ud-2.15-241121",
+        "model": "italian-vit-ud-2.17-251125",
         "language_iso": "it",
-        "language_name": "italian",
+        "language_name": "Italian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -928,9 +1032,9 @@
         "description": null
       },
       {
-        "model": "japanese-gsd-ud-2.15-241121",
+        "model": "japanese-gsd-ud-2.17-251125",
         "language_iso": "ja",
-        "language_name": "japanese",
+        "language_name": "Japanese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -941,9 +1045,9 @@
         "description": null
       },
       {
-        "model": "japanese-gsdluw-ud-2.15-241121",
+        "model": "japanese-gsdluw-ud-2.17-251125",
         "language_iso": "ja",
-        "language_name": "japanese",
+        "language_name": "Japanese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -954,9 +1058,22 @@
         "description": null
       },
       {
-        "model": "korean-gsd-ud-2.15-241121",
+        "model": "khoekhoe-kdt-ud-2.17-251125",
+        "language_iso": "naq",
+        "language_name": "Khoekhoe",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "korean-gsd-ud-2.17-251125",
         "language_iso": "ko",
-        "language_name": "korean",
+        "language_name": "Korean",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -967,9 +1084,9 @@
         "description": null
       },
       {
-        "model": "korean-kaist-ud-2.15-241121",
+        "model": "korean-kaist-ud-2.17-251125",
         "language_iso": "ko",
-        "language_name": "korean",
+        "language_name": "Korean",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -980,9 +1097,9 @@
         "description": null
       },
       {
-        "model": "korean-ksl-ud-2.15-241121",
+        "model": "korean-ksl-ud-2.17-251125",
         "language_iso": "ko",
-        "language_name": "korean",
+        "language_name": "Korean",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -993,9 +1110,9 @@
         "description": null
       },
       {
-        "model": "kyrgyz-ktmu-ud-2.15-241121",
-        "language_iso": "ky",
-        "language_name": "kyrgyz",
+        "model": "kyrgyz-ktmu-ud-2.17-251125",
+        "language_iso": "kyrgyz",
+        "language_name": "Kyrgyz",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1006,9 +1123,9 @@
         "description": null
       },
       {
-        "model": "latin-ittb-ud-2.15-241121",
+        "model": "latin-circse-ud-2.17-251125",
         "language_iso": "la",
-        "language_name": "latin",
+        "language_name": "Latin",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1019,9 +1136,9 @@
         "description": null
       },
       {
-        "model": "latin-llct-ud-2.15-241121",
+        "model": "latin-ittb-ud-2.17-251125",
         "language_iso": "la",
-        "language_name": "latin",
+        "language_name": "Latin",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1032,9 +1149,9 @@
         "description": null
       },
       {
-        "model": "latin-perseus-ud-2.15-241121",
+        "model": "latin-llct-ud-2.17-251125",
         "language_iso": "la",
-        "language_name": "latin",
+        "language_name": "Latin",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1045,9 +1162,9 @@
         "description": null
       },
       {
-        "model": "latin-proiel-ud-2.15-241121",
+        "model": "latin-perseus-ud-2.17-251125",
         "language_iso": "la",
-        "language_name": "latin",
+        "language_name": "Latin",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1058,9 +1175,9 @@
         "description": null
       },
       {
-        "model": "latin-udante-ud-2.15-241121",
+        "model": "latin-proiel-ud-2.17-251125",
         "language_iso": "la",
-        "language_name": "latin",
+        "language_name": "Latin",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1071,9 +1188,22 @@
         "description": null
       },
       {
-        "model": "latvian-lvtb-ud-2.15-241121",
+        "model": "latin-udante-ud-2.17-251125",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "latvian-lvtb-ud-2.17-251125",
         "language_iso": "lv",
-        "language_name": "latvian",
+        "language_name": "Latvian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1084,9 +1214,9 @@
         "description": null
       },
       {
-        "model": "lithuanian-alksnis-ud-2.15-241121",
-        "language_iso": "lt",
-        "language_name": "lithuanian",
+        "model": "lithuanian-alksnis-ud-2.17-251125",
+        "language_iso": "lithuanian",
+        "language_name": "Lithuanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1097,9 +1227,9 @@
         "description": null
       },
       {
-        "model": "lithuanian-hse-ud-2.15-241121",
-        "language_iso": "lt",
-        "language_name": "lithuanian",
+        "model": "lithuanian-hse-ud-2.17-251125",
+        "language_iso": "lithuanian",
+        "language_name": "Lithuanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1110,9 +1240,9 @@
         "description": null
       },
       {
-        "model": "low_saxon-lsdc-ud-2.15-241121",
-        "language_iso": "khb",
-        "language_name": "low saxon",
+        "model": "low_saxon-lsdc-ud-2.17-251125",
+        "language_iso": "nds",
+        "language_name": "Low saxon",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1123,9 +1253,9 @@
         "description": null
       },
       {
-        "model": "maghrebi_arabic_french-arabizi-ud-2.15-241121",
-        "language_iso": "ma",
-        "language_name": "maghrebi arabic french",
+        "model": "maghrebi_arabic_french-arabizi-ud-2.17-251125",
+        "language_iso": "ary",
+        "language_name": "Maghrebi arabic french",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1136,9 +1266,9 @@
         "description": null
       },
       {
-        "model": "maltese-mudt-ud-2.15-241121",
-        "language_iso": "mt",
-        "language_name": "maltese",
+        "model": "maltese-mudt-ud-2.17-251125",
+        "language_iso": "maltese",
+        "language_name": "Maltese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1149,9 +1279,9 @@
         "description": null
       },
       {
-        "model": "manx-cadhan-ud-2.15-241121",
-        "language_iso": "gv",
-        "language_name": "manx",
+        "model": "manx-cadhan-ud-2.17-251125",
+        "language_iso": "manx",
+        "language_name": "Manx",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1162,9 +1292,9 @@
         "description": null
       },
       {
-        "model": "marathi-ufal-ud-2.15-241121",
-        "language_iso": "mr",
-        "language_name": "marathi",
+        "model": "marathi-ufal-ud-2.17-251125",
+        "language_iso": "marathi",
+        "language_name": "Marathi",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1175,9 +1305,9 @@
         "description": null
       },
       {
-        "model": "naija-nsc-ud-2.15-241121",
-        "language_iso": "bio",
-        "language_name": "naija",
+        "model": "middle_french-profiterole-ud-2.17-251125",
+        "language_iso": "frm",
+        "language_name": "Middle french",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1188,9 +1318,48 @@
         "description": null
       },
       {
-        "model": "north_sami-giella-ud-2.15-241121",
+        "model": "naija-nsc-ud-2.17-251125",
+        "language_iso": "pcm",
+        "language_name": "Naija",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "nheengatu-complin-ud-2.17-251125",
+        "language_iso": "yrl",
+        "language_name": "Nheengatu",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "north_sami-giella-ud-2.17-251125",
+        "language_iso": "sme",
+        "language_name": "North sami",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "norwegian-bokmaal-ud-2.17-251125",
         "language_iso": "no",
-        "language_name": "north sami",
+        "language_name": "Norwegian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1201,9 +1370,9 @@
         "description": null
       },
       {
-        "model": "norwegian-bokmaal-ud-2.15-241121",
+        "model": "norwegian-nynorsk-ud-2.17-251125",
         "language_iso": "no",
-        "language_name": "norwegian",
+        "language_name": "Norwegian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1214,9 +1383,9 @@
         "description": null
       },
       {
-        "model": "norwegian-nynorsk-ud-2.15-241121",
-        "language_iso": "no",
-        "language_name": "norwegian",
+        "model": "occitan-ttb-ud-2.17-251125",
+        "language_iso": "occitan",
+        "language_name": "Occitan",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1227,9 +1396,9 @@
         "description": null
       },
       {
-        "model": "old_church_slavonic-proiel-ud-2.15-241121",
-        "language_iso": "chu",
-        "language_name": "old church slavonic",
+        "model": "old_church_slavonic-proiel-ud-2.17-251125",
+        "language_iso": "cu",
+        "language_name": "Old church slavonic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1240,22 +1409,9 @@
         "description": null
       },
       {
-        "model": "old_east_slavic-birchbark-ud-2.15-241121",
-        "language_iso": "chu",
-        "language_name": "old east slavic",
-        "features": "tokenization, lemma, upos, xpos, feats, depparse",
-        "components": [
-          "tokenizer",
-          "tagger",
-          "parser"
-        ],
-        "preferred": false,
-        "description": null
-      },
-      {
-        "model": "old_east_slavic-rnc-ud-2.15-241121",
+        "model": "old_east_slavic-birchbark-ud-2.17-251125",
         "language_iso": "orv",
-        "language_name": "old east slavic",
+        "language_name": "Old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1266,9 +1422,9 @@
         "description": null
       },
       {
-        "model": "old_east_slavic-ruthenian-ud-2.15-241121",
+        "model": "old_east_slavic-rnc-ud-2.17-251125",
         "language_iso": "orv",
-        "language_name": "old east slavic",
+        "language_name": "Old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1279,9 +1435,9 @@
         "description": null
       },
       {
-        "model": "old_east_slavic-torot-ud-2.15-241121",
+        "model": "old_east_slavic-ruthenian-ud-2.17-251125",
         "language_iso": "orv",
-        "language_name": "old east slavic",
+        "language_name": "Old east slavic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1292,9 +1448,22 @@
         "description": null
       },
       {
-        "model": "old_french-profiterole-ud-2.15-241121",
+        "model": "old_east_slavic-torot-ud-2.17-251125",
+        "language_iso": "orv",
+        "language_name": "Old east slavic",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "old_french-profiterole-ud-2.17-251125",
         "language_iso": "fro",
-        "language_name": "old french",
+        "language_name": "Old french",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1305,9 +1474,22 @@
         "description": null
       },
       {
-        "model": "ottoman_turkish-boun-ud-2.15-241121",
+        "model": "old_occitan-corag-ud-2.17-251125",
+        "language_iso": "pro",
+        "language_name": "Old occitan",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "ottoman_turkish-boun-ud-2.17-251125",
         "language_iso": "ota",
-        "language_name": "ottoman turkish",
+        "language_name": "Ottoman turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1318,9 +1500,9 @@
         "description": null
       },
       {
-        "model": "persian-perdt-ud-2.15-241121",
+        "model": "persian-perdt-ud-2.17-251125",
         "language_iso": "fa",
-        "language_name": "persian",
+        "language_name": "Persian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1331,9 +1513,9 @@
         "description": null
       },
       {
-        "model": "persian-seraji-ud-2.15-241121",
+        "model": "persian-seraji-ud-2.17-251125",
         "language_iso": "fa",
-        "language_name": "persian",
+        "language_name": "Persian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1344,9 +1526,9 @@
         "description": null
       },
       {
-        "model": "polish-lfg-ud-2.15-241121",
+        "model": "polish-lfg-ud-2.17-251125",
         "language_iso": "pl",
-        "language_name": "polish",
+        "language_name": "Polish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1357,9 +1539,9 @@
         "description": null
       },
       {
-        "model": "polish-pdb-ud-2.15-241121",
+        "model": "polish-mpdt-ud-2.17-251125",
         "language_iso": "pl",
-        "language_name": "polish",
+        "language_name": "Polish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1370,9 +1552,9 @@
         "description": null
       },
       {
-        "model": "pomak-philotis-ud-2.15-241121",
-        "language_iso": "pmo",
-        "language_name": "pomak",
+        "model": "polish-pdb-ud-2.17-251125",
+        "language_iso": "pl",
+        "language_name": "Polish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1383,9 +1565,22 @@
         "description": null
       },
       {
-        "model": "portuguese-bosque-ud-2.15-241121",
+        "model": "pomak-philotis-ud-2.17-251125",
+        "language_iso": "qpm",
+        "language_name": "Pomak",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "portuguese-bosque-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1396,9 +1591,9 @@
         "description": null
       },
       {
-        "model": "portuguese-cintil-ud-2.15-241121",
+        "model": "portuguese-cintil-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1409,9 +1604,9 @@
         "description": null
       },
       {
-        "model": "portuguese-dantestocks-ud-2.15-241121",
+        "model": "portuguese-dantestocks-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1422,9 +1617,9 @@
         "description": null
       },
       {
-        "model": "portuguese-gsd-ud-2.15-241121",
+        "model": "portuguese-gsd-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1435,9 +1630,9 @@
         "description": null
       },
       {
-        "model": "portuguese-petrogold-ud-2.15-241121",
+        "model": "portuguese-petrogold-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1448,9 +1643,9 @@
         "description": null
       },
       {
-        "model": "portuguese-porttinari-ud-2.15-241121",
+        "model": "portuguese-porttinari-ud-2.17-251125",
         "language_iso": "pt",
-        "language_name": "portuguese",
+        "language_name": "Portuguese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1461,9 +1656,9 @@
         "description": null
       },
       {
-        "model": "romanian-nonstandard-ud-2.15-241121",
+        "model": "romanian-nonstandard-ud-2.17-251125",
         "language_iso": "ro",
-        "language_name": "romanian",
+        "language_name": "Romanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1474,9 +1669,9 @@
         "description": null
       },
       {
-        "model": "romanian-rrt-ud-2.15-241121",
+        "model": "romanian-rrt-ud-2.17-251125",
         "language_iso": "ro",
-        "language_name": "romanian",
+        "language_name": "Romanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1487,9 +1682,9 @@
         "description": null
       },
       {
-        "model": "romanian-simonero-ud-2.15-241121",
+        "model": "romanian-simonero-ud-2.17-251125",
         "language_iso": "ro",
-        "language_name": "romanian",
+        "language_name": "Romanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1500,9 +1695,9 @@
         "description": null
       },
       {
-        "model": "russian-gsd-ud-2.15-241121",
+        "model": "russian-gsd-ud-2.17-251125",
         "language_iso": "ru",
-        "language_name": "russian",
+        "language_name": "Russian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1513,9 +1708,9 @@
         "description": null
       },
       {
-        "model": "russian-poetry-ud-2.15-241121",
+        "model": "russian-poetry-ud-2.17-251125",
         "language_iso": "ru",
-        "language_name": "russian",
+        "language_name": "Russian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1526,9 +1721,9 @@
         "description": null
       },
       {
-        "model": "russian-syntagrus-ud-2.15-241121",
+        "model": "russian-syntagrus-ud-2.17-251125",
         "language_iso": "ru",
-        "language_name": "russian",
+        "language_name": "Russian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1539,9 +1734,9 @@
         "description": null
       },
       {
-        "model": "russian-taiga-ud-2.15-241121",
+        "model": "russian-taiga-ud-2.17-251125",
         "language_iso": "ru",
-        "language_name": "russian",
+        "language_name": "Russian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1552,9 +1747,9 @@
         "description": null
       },
       {
-        "model": "sanskrit-vedic-ud-2.15-241121",
-        "language_iso": "sa",
-        "language_name": "sanskrit",
+        "model": "sanskrit-vedic-ud-2.17-251125",
+        "language_iso": "sanskrit",
+        "language_name": "Sanskrit",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1565,9 +1760,9 @@
         "description": null
       },
       {
-        "model": "scottish_gaelic-arcosg-ud-2.15-241121",
-        "language_iso": "gd",
-        "language_name": "scottish gaelic",
+        "model": "scottish_gaelic-arcosg-ud-2.17-251125",
+        "language_iso": "scottish_gaelic",
+        "language_name": "Scottish gaelic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1578,9 +1773,9 @@
         "description": null
       },
       {
-        "model": "serbian-set-ud-2.15-241121",
-        "language_iso": "sr",
-        "language_name": "serbian",
+        "model": "serbian-set-ud-2.17-251125",
+        "language_iso": "serbian",
+        "language_name": "Serbian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1591,9 +1786,35 @@
         "description": null
       },
       {
-        "model": "slovak-snk-ud-2.15-241121",
+        "model": "shanghainese-shud-ud-2.17-251125",
+        "language_iso": "wuu",
+        "language_name": "Shanghainese",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "sindhi-isra-ud-2.17-251125",
+        "language_iso": "sindhi",
+        "language_name": "Sindhi",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "slovak-snk-ud-2.17-251125",
         "language_iso": "sk",
-        "language_name": "slovak",
+        "language_name": "Slovak",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1604,9 +1825,9 @@
         "description": null
       },
       {
-        "model": "slovenian-ssj-ud-2.15-241121",
+        "model": "slovenian-ssj-ud-2.17-251125",
         "language_iso": "sl",
-        "language_name": "slovenian",
+        "language_name": "Slovenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1617,9 +1838,9 @@
         "description": null
       },
       {
-        "model": "slovenian-sst-ud-2.15-241121",
+        "model": "slovenian-sst-ud-2.17-251125",
         "language_iso": "sl",
-        "language_name": "slovenian",
+        "language_name": "Slovenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1630,9 +1851,22 @@
         "description": null
       },
       {
-        "model": "spanish-ancora-ud-2.15-241121",
+        "model": "southern_kurdish-garrusi-ud-2.17-251125",
+        "language_iso": "sdh",
+        "language_name": "Southern kurdish",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "spanish-ancora-ud-2.17-251125",
         "language_iso": "es",
-        "language_name": "spanish",
+        "language_name": "Spanish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1643,9 +1877,9 @@
         "description": null
       },
       {
-        "model": "spanish-gsd-ud-2.15-241121",
+        "model": "spanish-gsd-ud-2.17-251125",
         "language_iso": "es",
-        "language_name": "spanish",
+        "language_name": "Spanish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1656,9 +1890,9 @@
         "description": null
       },
       {
-        "model": "swedish-lines-ud-2.15-241121",
+        "model": "swedish-lines-ud-2.17-251125",
         "language_iso": "sv",
-        "language_name": "swedish",
+        "language_name": "Swedish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1669,9 +1903,9 @@
         "description": null
       },
       {
-        "model": "swedish-talbanken-ud-2.15-241121",
+        "model": "swedish-talbanken-ud-2.17-251125",
         "language_iso": "sv",
-        "language_name": "swedish",
+        "language_name": "Swedish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1682,9 +1916,9 @@
         "description": null
       },
       {
-        "model": "tamil-ttb-ud-2.15-241121",
-        "language_iso": "ta",
-        "language_name": "tamil",
+        "model": "tamil-ttb-ud-2.17-251125",
+        "language_iso": "tamil",
+        "language_name": "Tamil",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1695,9 +1929,9 @@
         "description": null
       },
       {
-        "model": "telugu-mtg-ud-2.15-241121",
-        "language_iso": "te",
-        "language_name": "telugu",
+        "model": "telugu-mtg-ud-2.17-251125",
+        "language_iso": "telugu",
+        "language_name": "Telugu",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1708,9 +1942,22 @@
         "description": null
       },
       {
-        "model": "turkish-atis-ud-2.15-241121",
+        "model": "thai-tud-ud-2.17-251125",
+        "language_iso": "thai",
+        "language_name": "Thai",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "turkish-atis-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1721,9 +1968,9 @@
         "description": null
       },
       {
-        "model": "turkish-boun-ud-2.15-241121",
+        "model": "turkish-boun-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1734,9 +1981,9 @@
         "description": null
       },
       {
-        "model": "turkish-framenet-ud-2.15-241121",
+        "model": "turkish-framenet-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1747,9 +1994,9 @@
         "description": null
       },
       {
-        "model": "turkish-imst-ud-2.15-241121",
+        "model": "turkish-imst-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1760,9 +2007,9 @@
         "description": null
       },
       {
-        "model": "turkish-kenet-ud-2.15-241121",
+        "model": "turkish-kenet-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1773,9 +2020,9 @@
         "description": null
       },
       {
-        "model": "turkish-penn-ud-2.15-241121",
+        "model": "turkish-penn-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1786,9 +2033,9 @@
         "description": null
       },
       {
-        "model": "turkish-tourism-ud-2.15-241121",
+        "model": "turkish-tourism-ud-2.17-251125",
         "language_iso": "tr",
-        "language_name": "turkish",
+        "language_name": "Turkish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1799,9 +2046,9 @@
         "description": null
       },
       {
-        "model": "turkish_german-sagt-ud-2.15-241121",
-        "language_iso": "mjg",
-        "language_name": "turkish german",
+        "model": "turkish_german-sagt-ud-2.17-251125",
+        "language_iso": "qtd",
+        "language_name": "Turkish german",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1812,9 +2059,9 @@
         "description": null
       },
       {
-        "model": "ukrainian-iu-ud-2.15-241121",
+        "model": "ukrainian-iu-ud-2.17-251125",
         "language_iso": "uk",
-        "language_name": "ukrainian",
+        "language_name": "Ukrainian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1825,9 +2072,9 @@
         "description": null
       },
       {
-        "model": "ukrainian-parlamint-ud-2.15-241121",
+        "model": "ukrainian-parlamint-ud-2.17-251125",
         "language_iso": "uk",
-        "language_name": "ukrainian",
+        "language_name": "Ukrainian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1838,9 +2085,9 @@
         "description": null
       },
       {
-        "model": "urdu-udtb-ud-2.15-241121",
-        "language_iso": "ur",
-        "language_name": "urdu",
+        "model": "urdu-udtb-ud-2.17-251125",
+        "language_iso": "urdu",
+        "language_name": "Urdu",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1851,9 +2098,9 @@
         "description": null
       },
       {
-        "model": "uyghur-udt-ud-2.15-241121",
-        "language_iso": "uuu",
-        "language_name": "uyghur",
+        "model": "uyghur-udt-ud-2.17-251125",
+        "language_iso": "uyghur",
+        "language_name": "Uyghur",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1864,9 +2111,22 @@
         "description": null
       },
       {
-        "model": "vietnamese-vtb-ud-2.15-241121",
+        "model": "uzbek-uzudt-ud-2.17-251125",
+        "language_iso": "uzbek",
+        "language_name": "Uzbek",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "vietnamese-vtb-ud-2.17-251125",
         "language_iso": "vi",
-        "language_name": "vietnamese",
+        "language_name": "Vietnamese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1877,9 +2137,9 @@
         "description": null
       },
       {
-        "model": "welsh-ccg-ud-2.15-241121",
-        "language_iso": "cy",
-        "language_name": "welsh",
+        "model": "welsh-ccg-ud-2.17-251125",
+        "language_iso": "welsh",
+        "language_name": "Welsh",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1890,9 +2150,9 @@
         "description": null
       },
       {
-        "model": "western_armenian-armtdp-ud-2.15-241121",
-        "language_iso": "hyw",
-        "language_name": "western armenian",
+        "model": "western_armenian-armtdp-ud-2.17-251125",
+        "language_iso": "hy",
+        "language_name": "Western armenian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1903,9 +2163,35 @@
         "description": null
       },
       {
-        "model": "wolof-wtb-ud-2.15-241121",
-        "language_iso": "wo",
-        "language_name": "wolof",
+        "model": "wolof-wtb-ud-2.17-251125",
+        "language_iso": "wolof",
+        "language_name": "Wolof",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "yiddish-yitb-ud-2.17-251125",
+        "language_iso": "yiddish",
+        "language_name": "Yiddish",
+        "features": "tokenization, lemma, upos, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "parser"
+        ],
+        "preferred": false,
+        "description": null
+      },
+      {
+        "model": "zaar-autogramm-ud-2.17-251125",
+        "language_iso": "zaar",
+        "language_name": "Zaar",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
