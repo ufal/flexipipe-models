@@ -40,7 +40,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -105,7 +105,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -196,7 +196,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -248,7 +248,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -287,7 +287,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -352,7 +352,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -391,7 +391,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -430,7 +430,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": true,
+        "preferred": false,
         "description": null
       },
       {
@@ -495,7 +495,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -534,7 +534,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -560,7 +560,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -638,7 +638,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -664,7 +664,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -690,7 +690,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -729,7 +729,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -781,7 +781,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -846,7 +846,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -885,7 +885,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -911,7 +911,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -937,7 +937,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1041,7 +1041,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1080,7 +1080,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1132,7 +1132,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1223,7 +1223,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1366,7 +1366,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1418,7 +1418,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1509,7 +1509,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1535,7 +1535,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1587,7 +1587,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1665,7 +1665,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1704,7 +1704,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1834,7 +1834,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1873,7 +1873,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1899,7 +1899,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -1964,7 +1964,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
@@ -2068,7 +2068,7 @@
           "tagger",
           "parser"
         ],
-        "preferred": false,
+        "preferred": true,
         "description": null
       },
       {
