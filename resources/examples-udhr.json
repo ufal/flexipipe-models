@@ -3334,5 +3334,11 @@
   	"iso3": "orv",
   	"display": "Old East Slavic",
   	"text": "Вьси сѧ людиѥ родѧть свободьни и ровьни въ чьсти та въ правьдѣ. И одарєни сѫть розѹмъмь и дѹшєѭ. И дѣıати имъ къ собѣ ıако мєжю братъı."
+  },
+  "zsm": {
+  	"key": "zsm",
+  	"iso3": "zsm",
+  	"display": "Malay",
+  	"text": "Semua manusia dilahirkan bebas dan samarata dari segi kemuliaan dan hak-hak. Mereka mempunyai pemikiran dan perasaan hati dan hendaklah bertindak di antara satu sama lain dengan semangat persaudaraan."
   }
 }
