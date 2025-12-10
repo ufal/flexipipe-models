@@ -29,19 +29,19 @@
     "display": "Nyanja",
     "text": "Anthu onse amabadwa mwa ufulu ndiponso olinganga m' makhalidwe ao. Iwo amakhala ndi nzeru za cibadwidwe kotero ayenera kucitirana zabwino wina ndi mnzace."
   },
-  "bos": {
+  "bos-Cyrl": {
     "key": "bos-Cyrl",
     "iso3": "bos",
-    "display": "Bosnian",
+    "display": "Bosnian (Cyrillic)",
     "text": "Сва људска бића раћају се слободна и једнака у достојанству и правима. Она су обдарена разумом и свијешћу и треба да једно према другоме поступају у духу братства."
   },
-  "bel": {
-    "key": "bel-lat",
-    "iso3": "bel",
-    "display": "Belarusian",
-    "text": "Usie ludzi naradžajucca svabodnymi i roŭnymi ŭ svajoj hodnaści i pravach. Jany nadzieleny rozumam i sumleńniem i pavinny stavicca adzin da adnaho ŭ duchu bractva."
+  "bos-Latn": {
+    "key": "bos-Latn",
+    "iso3": "bos",
+    "display": "Bosnian (Latin)",
+    "text": "Sva ljudska bića rađaju se slobodna i jednaka u dostojanstvu i pravima. Ona su obdarena razumom i sviješću i treba da jedno prema drugome postupaju u duhu bratstva."
   },
-  "be": {
+  "bel": {
     "key": "bel-lat",
     "iso3": "bel",
     "display": "Belarusian",
@@ -95,11 +95,17 @@
     "display": "Cashinahua",
     "text": "Yudabu dasibi jabiaskadi akin, xinantidubuki. Javen taea jau jaibunamenunbunven."
   },
-  "zlm": {
+  "zlm-Arab": {
     "key": "zlm-Arab",
     "iso3": "zlm",
-    "display": "Malay",
+    "display": "Malay (Arab)",
     "text": "سموا مأنسي دلاهيركن بيبس دان سامرات دري سڬي كموليأن دان حق٢. مريك ممڤوڽاي ڤميكيرن دان ڤراسأن هاتي دان هندقله برتيندق د انتارا ساتو سام لائن دڠن سماڠت ڤرساودارأن."
+  },
+  "zlm": {
+    "key": "zlm-Larn",
+    "iso3": "zlm",
+    "display": "Malay",
+    "text": "Semua manusia dilahirkan bebas dan samarata dari segi kemuliaan dan hak-hak. Mereka mempunyai pemikiran dan perasaan hati dan hendaklah bertindak di antara satu sama lain dengan semangat persaudaraan."
   },
   "ykg": {
     "key": "ykg",
@@ -815,16 +821,16 @@
     "display": "Yanesha'",
     "text": "Allohueney ñeñtey arromñatey att̃o ye'ñalletyesa arr patsro e'ñe att̃ecma cohuen yesherb̃a'yen. Ñam̃a yechyen allpon derechos att̃och e'ñech cohueno'tsa'yeney arr patsro. Ñam̃a allohuen att̃ecma yechyen alloch yoct̃ape' chyen cohuen ñam̃a yeñotyen yeyoc̈hro ñeñt ̃e'ne pocte' enten acheñenesha' ñam̃a ñeñt ̃ama pocteye' enteneto. Yeñoteñ añ poctetsa e'ñe yemo'nasheñ yep̃annena ama't ora allohuen allpon acheñenesha' ñeñt ̃añe patsro'tsa'yeney."
   },
-  "vi": {
-    "key": "vie-Han",
-    "iso3": "vie",
-    "display": "Vietnamese",
-    "text": "畢哿每𠊛生𠚢調得自由吧平等𧗱人品吧權。每𡥵𠊛調得造化頒朱理智吧良心吧勤沛對處𢭲膮𥪝情朋友。"
-  },
   "vie": {
-    "key": "vie-Han",
+    "key": "vie",
     "iso3": "vie",
     "display": "Vietnamese",
+    "text": "Tất cả mọi người sinh ra đều được tự do và bình đẳng về nhân phẩm và quyền lợi. Mọi con người đều được tạo hóa ban cho lý trí và lương tâm và cần phải đối xử với nhau trong tình anh em."
+  },
+  "vie-Han": {
+    "key": "vie-Han",
+    "iso3": "vie",
+    "display": "Vietnamese (Han)",
     "text": "畢哿每𠊛生𠚢調得自由吧平等𧗱人品吧權。每𡥵𠊛調得造化頒朱理智吧良心吧勤沛對處𢭲膮𥪝情朋友。"
   },
   "bre": {
@@ -870,15 +876,15 @@
     "text": "Aw human sowels is born free and equal in dignity and richts. They are tochered wi mense and conscience and shuld guide theirsels ane til ither in a speirit o britherheid."
   },
   "kat": {
-    "key": "kea-Geok",
+    "key": "kat",
     "iso3": "kat",
     "display": "Georgian",
-    "text": "ႷႤႪႠ ႠႣႠႫႨႠႬႨ ႨႡႠႣႤႡႠ ႧႠႥႨႱႳႴႠႪႨ ႣႠ ႧႠႬႠႱႼႭႰႨ ႧႠႥႨႱႨ ႶႨႰႱႤႡႨႧႠ ႣႠ ႳႴႪႤႡႤႡႨႧ჻ ႫႠႧ ႢႠႠႹႬႨႠႧ ႢႭႬႤႡႠ ႣႠ ႱႨႬႣႨႱႨ ႣႠ ႤႰႧႫႠႬႤႧႨႱ ႫႨႫႠႰႧ ႳႬႣႠ ႨႵႺႤႭႣႬႤႬ ႣႠ-ႻႫႭႡႨႱ ႱႳႪႨႱႩႥႤႧႤႡႨႧ჻"
+    "text": "ყველა ადამიანი იბადება თავისუფალი და თანასწორი თავისი ღირსებითა და უფლებებით. მათ მინიჭებული აქვთ გონება და სინდისი და ერთმანეთის მიმართ უნდა იქცეოდნენ ძმობის სულისკვეთებით."
   },
-  "ka": {
+  "kat-Geok": {
     "key": "kea-Geok",
     "iso3": "kat",
-    "display": "Georgian",
+    "display": "Georgian (Asomtavruli)",
     "text": "ႷႤႪႠ ႠႣႠႫႨႠႬႨ ႨႡႠႣႤႡႠ ႧႠႥႨႱႳႴႠႪႨ ႣႠ ႧႠႬႠႱႼႭႰႨ ႧႠႥႨႱႨ ႶႨႰႱႤႡႨႧႠ ႣႠ ႳႴႪႤႡႤႡႨႧ჻ ႫႠႧ ႢႠႠႹႬႨႠႧ ႢႭႬႤႡႠ ႣႠ ႱႨႬႣႨႱႨ ႣႠ ႤႰႧႫႠႬႤႧႨႱ ႫႨႫႠႰႧ ႳႬႣႠ ႨႵႺႤႭႣႬႤႬ ႣႠ-ႻႫႭႡႨႱ ႱႳႪႨႱႩႥႤႧႤႡႨႧ჻"
   },
   "ike": {
@@ -960,6 +966,12 @@
     "text": "ᛅᛚᛁᛦ᛬ᛘᛁᚾ᛬ᛁᛦᚢ᛬ᛒᚢᚱᚾᛁᛦ᛬ᚠᚱᛁᛅᛚᛋᛁᛦ᛬ᛅᚢᚴ᛬ᛁᛅᚠᚾᛁᛦ᛬ᛅᛏ᛬ᚢᛁᚱᚦᛁᚴᚢ᛬ᛅᚢᚴ᛬ᚱᛁᛏᚢᛘ᛬ᚦᛅᛁᛦ᛬ᛁᛦᚢ᛬ᛅᛚᛁᛦ᛬ᚢᛁᛏᛁ᛬ᚴᚢᛏᛁᛦ᛬ᛅᚢᚴ᛬ᛋᛅᛘᚢᛁᛋᚴᚢ᛬ᛅᚢᚴ᛬ᛋᚴᚢᛚᚢ᛬ᚴᛅᚱᛅ᛬ᚼᚢᛅᛦ᛬ᛏᛁᛚ᛬ᛅᚾᛅᚱᛋ᛬ᛒᚱᚢᚦᚢᚱᛚᛁᚴᛅ"
   },
   "tgl": {
+    "key": "tgl",
+    "iso3": "tgl",
+    "display": "Tagalog",
+    "text": "Ang lahat ng tao'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa't isa sa diwa ng pagkakapatiran."
+  },
+  "tgl-Tglg": {
     "key": "tgl-Tglg",
     "iso3": "tgl",
     "display": "Tagalog",
@@ -1034,7 +1046,7 @@
   "tso": {
     "key": "tso-moz",
     "iso3": "tso",
-    "display": "Tsonga",
+    "display": "Tsonga (Mozambique)",
     "text": "Vanhu hin'kwavu va psaliwili na va khululekìle, funthsi va fana hi lisima ni tinfaneno. Và psaliwili ni nyiko ya ku pimisa ni ku yehleketa; hi kolahu, va fanela ku hanya hi moya wa umbìlu ni unghani."
   },
   "crs": {
@@ -1301,17 +1313,17 @@
     "display": "Ansus",
     "text": "Ealle menn sindon āre and rihtes efen ġeboren, and frēo. Him sindon ġiefeþe ġerād and inġehyġd, and hī sċulon dōn tō ōþrum on brōþorsċipes fēore."
   },
-  "nl": {
+  "nld-old": {
     "key": "nld-old",
     "iso3": "nld",
-    "display": "Dutch",
+    "display": "Middle Dutch",
     "text": "Alle menschen worden met gelijke Rechten gebouren en deze Natuurlijke Rechten kunnen hun niet ontnomen worden."
   },
   "nld": {
-    "key": "nld-old",
+    "key": "nld",
     "iso3": "nld",
     "display": "Dutch",
-    "text": "Alle menschen worden met gelijke Rechten gebouren en deze Natuurlijke Rechten kunnen hun niet ontnomen worden."
+    "text": "Alle mensen worden vrij en gelijk in waardigheid en rechten geboren. Zij zijn begiftigd met verstand en geweten, en behoren zich jegens elkander in een geest van broederschap te gedragen."
   },
   "isl": {
     "key": "isl",
@@ -1511,6 +1523,12 @@
     "display": "North Azerbaijani",
     "text": "Бүтүн инсанлар ләјагәт вә һүгугларына ҝөрә азад вә бәрабәр доғулурлар. Онларын шүурлары вә виҹданлары вар вә бир-бирләринә мүнасибәтдә гардашлыг руһунда давранмалыдырлар."
   },
+  "azj-Latn": {
+    "key": "azj-Latn",
+    "iso3": "azj",
+    "display": "North Azerbaijani (Latin)",
+    "text": "Bütün insanlar ləyaqət və üquqlarına görə azad bərabər doğulurlar. Onarın şüuralrı və vicdanları var və bir-birlərinə münasibətdə ardaşlıq runhunda davranmalıdırlar."
+  },
   "tel": {
     "key": "tel",
     "iso3": "tel",
@@ -1697,11 +1715,23 @@
     "display": "Sicilian",
     "text": "Tutti l'omini nascinu libbiri cu a stissa dignità i diritti. Iddi hannu a raggiuni i cuscienza i hannu a travagghiari 'nzemmula cu spiritu di fratirnità."
   },
-  "oci": {
+  "oci-ara": {
     "key": "oci-ara",
     "iso3": "oci",
     "display": "Aranese",
     "text": "Toz os ombres naxen libres y iguals en dinidat y en dreitos. Adotatos de razón y de conzenzia, deben apachar-sen unos con atros d'una manera freternal."
+  },
+  "oci-auv": {
+    "key": "oci-auv",
+    "iso3": "oci",
+    "display": "Occitan Auvergnat",
+    "text": "Ta la proussouna neisson lieura moé parira pà dïnessà mai dret. Son charjada de razou moé de cousiensà mai lhu fau arjî entremeî lha bei n'eime de freiressà."
+  },
+  "oci-auv": {
+    "key": "oci-lang",
+    "iso3": "oci",
+    "display": "Occitan Languedocien",
+    "text": "Totes los èssers umans naisson liures e egals en dignitat e en dreches. Son dotats de rason e de consciéncia e se devon comportar los unes amb los autres dins un esperit de fraternitat."
   },
   "nds": {
     "key": "nds",
@@ -2171,7 +2201,7 @@
     "display": "Garifuna",
     "text": "Sun gürigia nasíruati yuti lun, lidan úarani, lawiwanduní libágari kai le aubai labúsienra, gatu giñe lanagun lungua buidu hadan líbegu."
   },
-  "gsw": {
+  "gsw-als": {
     "key": "gsw-als",
     "iso3": "gsw",
     "display": "Alsatian",
