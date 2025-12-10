@@ -1,11 +1,2166 @@
 {
   "version": "1.0",
-  "last_updated": "2024-01-01T00:00:00Z",
-  "backend_version": ">=1.4.0",
+  "last_updated": "2025-12-10T09:51:13Z",
+  "backend_version": "any",
   "sources": {
+    "official": [
+      {
+        "model": "af_afribooms",
+        "language_iso": "af",
+        "language_name": "Afrikaans",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Afrikaans (AFRIBOOMS)"
+      },
+      {
+        "model": "ang_nerthus",
+        "language_iso": "ang",
+        "language_name": "Old English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Old English (NERTHUS)"
+      },
+      {
+        "model": "ar_padt",
+        "language_iso": "ar",
+        "language_name": "Arabic",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Arabic (PADT)"
+      },
+      {
+        "model": "be_hse",
+        "language_iso": "be",
+        "language_name": "Belarusian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Belarusian (HSE)"
+      },
+      {
+        "model": "bg_btb",
+        "language_iso": "bg",
+        "language_name": "Bulgarian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Bulgarian (BTB)"
+      },
+      {
+        "model": "bxr_bdt",
+        "language_iso": "bxr",
+        "language_name": "Buryat",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Buryat (BDT)"
+      },
+      {
+        "model": "ca_ancora",
+        "language_iso": "ca",
+        "language_name": "Catalan",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Catalan (ANCORA)"
+      },
+      {
+        "model": "cop_scriptorium",
+        "language_iso": "cop",
+        "language_name": "Coptic",
+        "components": [
+          "tokenizer",
+          "mwt"
+        ],
+        "preferred": true,
+        "description": "Coptic (SCRIPTORIUM)"
+      },
+      {
+        "model": "cs_cac",
+        "language_iso": "cs",
+        "language_name": "Czech",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Czech (CAC)"
+      },
+      {
+        "model": "cs_cltt",
+        "language_iso": "cs",
+        "language_name": "Czech",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Czech (CLTT)"
+      },
+      {
+        "model": "cs_fictree",
+        "language_iso": "cs",
+        "language_name": "Czech",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Czech (FICTREE)"
+      },
+      {
+        "model": "cs_pdt",
+        "language_iso": "cs",
+        "language_name": "Czech",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Czech (PDT)"
+      },
+      {
+        "model": "cu_proiel",
+        "language_iso": "cu",
+        "language_name": "Old Church Slavonic",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Old Church Slavonic (PROIEL)"
+      },
+      {
+        "model": "cy_ccg",
+        "language_iso": "cy",
+        "language_name": "Welsh",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Welsh (CCG)"
+      },
+      {
+        "model": "da_ddt",
+        "language_iso": "da",
+        "language_name": "Danish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Danish (DDT)"
+      },
+      {
+        "model": "de_gsd",
+        "language_iso": "de",
+        "language_name": "German",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "German (GSD)"
+      },
+      {
+        "model": "de_hdt",
+        "language_iso": "de",
+        "language_name": "German",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "German (HDT)"
+      },
+      {
+        "model": "el_gdt",
+        "language_iso": "el",
+        "language_name": "Greek",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Greek (GDT)"
+      },
+      {
+        "model": "el_gud",
+        "language_iso": "el",
+        "language_name": "Greek",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Greek (GUD)"
+      },
+      {
+        "model": "en_atis",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (ATIS)"
+      },
+      {
+        "model": "en_craft",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (CRAFT)"
+      },
+      {
+        "model": "en_eslspok",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (ESLSPOK)"
+      },
+      {
+        "model": "en_ewt",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (EWT)"
+      },
+      {
+        "model": "en_genia",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (GENIA)"
+      },
+      {
+        "model": "en_gum",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (GUM)"
+      },
+      {
+        "model": "en_lines",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (LINES)"
+      },
+      {
+        "model": "en_mimic",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (MIMIC)"
+      },
+      {
+        "model": "en_partut",
+        "language_iso": "en",
+        "language_name": "English",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "English (PARTUT)"
+      },
+      {
+        "model": "es_ancora",
+        "language_iso": "es",
+        "language_name": "Spanish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Spanish (ANCORA)"
+      },
+      {
+        "model": "es_gsd",
+        "language_iso": "es",
+        "language_name": "Spanish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Spanish (GSD)"
+      },
+      {
+        "model": "et_edt",
+        "language_iso": "et",
+        "language_name": "Estonian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Estonian (EDT)"
+      },
+      {
+        "model": "et_ewt",
+        "language_iso": "et",
+        "language_name": "Estonian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Estonian (EWT)"
+      },
+      {
+        "model": "eu_bdt",
+        "language_iso": "eu",
+        "language_name": "Basque",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Basque (BDT)"
+      },
+      {
+        "model": "fa_perdt",
+        "language_iso": "fa",
+        "language_name": "Persian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Persian (PERDT)"
+      },
+      {
+        "model": "fa_seraji",
+        "language_iso": "fa",
+        "language_name": "Persian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Persian (SERAJI)"
+      },
+      {
+        "model": "fi_ftb",
+        "language_iso": "fi",
+        "language_name": "Finnish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Finnish (FTB)"
+      },
+      {
+        "model": "fi_tdt",
+        "language_iso": "fi",
+        "language_name": "Finnish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Finnish (TDT)"
+      },
+      {
+        "model": "fo_farpahc",
+        "language_iso": "fo",
+        "language_name": "Faroese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Faroese (FARPAHC)"
+      },
+      {
+        "model": "fr_gsd",
+        "language_iso": "fr",
+        "language_name": "French",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "French (GSD)"
+      },
+      {
+        "model": "fr_parisstories",
+        "language_iso": "fr",
+        "language_name": "French",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "French (PARISSTORIES)"
+      },
+      {
+        "model": "fr_partut",
+        "language_iso": "fr",
+        "language_name": "French",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "French (PARTUT)"
+      },
+      {
+        "model": "fr_rhapsodie",
+        "language_iso": "fr",
+        "language_name": "French",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "French (RHAPSODIE)"
+      },
+      {
+        "model": "fr_sequoia",
+        "language_iso": "fr",
+        "language_name": "French",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "French (SEQUOIA)"
+      },
+      {
+        "model": "fro_profiterole",
+        "language_iso": "fro",
+        "language_name": "Old French",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Old French (PROFITEROLE)"
+      },
+      {
+        "model": "ga_idt",
+        "language_iso": "ga",
+        "language_name": "Irish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Irish (IDT)"
+      },
+      {
+        "model": "ga_twittirish",
+        "language_iso": "ga",
+        "language_name": "Irish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Irish (TWITTIRISH)"
+      },
+      {
+        "model": "gd_arcosg",
+        "language_iso": "gd",
+        "language_name": "Scottish Gaelic",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Scottish Gaelic (ARCOSG)"
+      },
+      {
+        "model": "gl_ctg",
+        "language_iso": "gl",
+        "language_name": "Galician",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Galician (CTG)"
+      },
+      {
+        "model": "gl_treegal",
+        "language_iso": "gl",
+        "language_name": "Galician",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Galician (TREEGAL)"
+      },
+      {
+        "model": "got_proiel",
+        "language_iso": "got",
+        "language_name": "Gothic",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Gothic (PROIEL)"
+      },
+      {
+        "model": "grc_perseus",
+        "language_iso": "grc",
+        "language_name": "Ancient Greek",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Ancient Greek (PERSEUS)"
+      },
+      {
+        "model": "grc_perseus-diacritics",
+        "language_iso": "grc",
+        "language_name": "Ancient Greek",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Ancient Greek (PERSEUS-DIACRITICS)"
+      },
+      {
+        "model": "grc_proiel",
+        "language_iso": "grc",
+        "language_name": "Ancient Greek",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Ancient Greek (PROIEL)"
+      },
+      {
+        "model": "grc_ptnk",
+        "language_iso": "grc",
+        "language_name": "Ancient Greek",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Ancient Greek (PTNK)"
+      },
+      {
+        "model": "gv_cadhan",
+        "language_iso": "gv",
+        "language_name": "Manx",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Manx (CADHAN)"
+      },
+      {
+        "model": "hbo_ptnk",
+        "language_iso": "hbo",
+        "language_name": "Ancient Hebrew",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Ancient Hebrew (PTNK)"
+      },
+      {
+        "model": "he_htb",
+        "language_iso": "he",
+        "language_name": "Hebrew",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Hebrew (HTB)"
+      },
+      {
+        "model": "he_iahltknesset",
+        "language_iso": "he",
+        "language_name": "Hebrew",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Hebrew (IAHLTKNESSET)"
+      },
+      {
+        "model": "he_iahltwiki",
+        "language_iso": "he",
+        "language_name": "Hebrew",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Hebrew (IAHLTWIKI)"
+      },
+      {
+        "model": "hi_hdtb",
+        "language_iso": "hi",
+        "language_name": "Hindi",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Hindi (HDTB)"
+      },
+      {
+        "model": "hr_set",
+        "language_iso": "hr",
+        "language_name": "Croatian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Croatian (SET)"
+      },
+      {
+        "model": "hsb_ufal",
+        "language_iso": "hsb",
+        "language_name": "Upper Sorbian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Upper Sorbian (UFAL)"
+      },
+      {
+        "model": "hu_szeged",
+        "language_iso": "hu",
+        "language_name": "Hungarian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Hungarian (SZEGED)"
+      },
+      {
+        "model": "hy_armtdp",
+        "language_iso": "hy",
+        "language_name": "Armenian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Armenian (ARMTDP)"
+      },
+      {
+        "model": "hy_bsut",
+        "language_iso": "hy",
+        "language_name": "Armenian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Armenian (BSUT)"
+      },
+      {
+        "model": "hyw_armtdp",
+        "language_iso": "hyw",
+        "language_name": "Western Armenian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Western Armenian (ARMTDP)"
+      },
+      {
+        "model": "id_csui",
+        "language_iso": "id",
+        "language_name": "Indonesian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Indonesian (CSUI)"
+      },
+      {
+        "model": "id_gsd",
+        "language_iso": "id",
+        "language_name": "Indonesian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Indonesian (GSD)"
+      },
+      {
+        "model": "is_gc",
+        "language_iso": "is",
+        "language_name": "Icelandic",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Icelandic (GC)"
+      },
+      {
+        "model": "is_icepahc",
+        "language_iso": "is",
+        "language_name": "Icelandic",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Icelandic (ICEPAHC)"
+      },
+      {
+        "model": "is_modern",
+        "language_iso": "is",
+        "language_name": "Icelandic",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Icelandic (MODERN)"
+      },
+      {
+        "model": "it_isdt",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (ISDT)"
+      },
+      {
+        "model": "it_markit",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (MARKIT)"
+      },
+      {
+        "model": "it_old",
+        "language_iso": "it",
+        "language_name": "Old Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (OLD)"
+      },
+      {
+        "model": "it_parlamint",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (PARLAMINT)"
+      },
+      {
+        "model": "it_partut",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (PARTUT)"
+      },
+      {
+        "model": "it_postwita",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (POSTWITA)"
+      },
+      {
+        "model": "it_twittiro",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (TWITTIRO)"
+      },
+      {
+        "model": "it_vit",
+        "language_iso": "it",
+        "language_name": "Italian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Italian (VIT)"
+      },
+      {
+        "model": "ja_gsd",
+        "language_iso": "ja",
+        "language_name": "Japanese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Japanese (GSD)"
+      },
+      {
+        "model": "ja_gsdluw",
+        "language_iso": "ja",
+        "language_name": "Japanese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Japanese (GSDLUW)"
+      },
+      {
+        "model": "ka_glc",
+        "language_iso": "ka",
+        "language_name": "Georgian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Georgian (GLC)"
+      },
+      {
+        "model": "kk_ktb",
+        "language_iso": "kk",
+        "language_name": "Kazakh",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Kazakh (KTB)"
+      },
+      {
+        "model": "kmr_mg",
+        "language_iso": "kmr",
+        "language_name": "Kurmanji",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Kurmanji (MG)"
+      },
+      {
+        "model": "ko_gsd",
+        "language_iso": "ko",
+        "language_name": "Korean",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Korean (GSD)"
+      },
+      {
+        "model": "ko_kaist",
+        "language_iso": "ko",
+        "language_name": "Korean",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Korean (KAIST)"
+      },
+      {
+        "model": "ko_ksl",
+        "language_iso": "ko",
+        "language_name": "Korean",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Korean (KSL)"
+      },
+      {
+        "model": "kpv_lattice",
+        "language_iso": "kpv",
+        "language_name": "Komi Zyrian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Komi Zyrian (LATTICE)"
+      },
+      {
+        "model": "ky_ktmu",
+        "language_iso": "ky",
+        "language_name": "Kyrgyz",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Kyrgyz (KTMU)"
+      },
+      {
+        "model": "la_ittb",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Latin (ITTB)"
+      },
+      {
+        "model": "la_llct",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Latin (LLCT)"
+      },
+      {
+        "model": "la_perseus",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Latin (PERSEUS)"
+      },
+      {
+        "model": "la_proiel",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Latin (PROIEL)"
+      },
+      {
+        "model": "la_udante",
+        "language_iso": "la",
+        "language_name": "Latin",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Latin (UDANTE)"
+      },
+      {
+        "model": "lij_glt",
+        "language_iso": "lij",
+        "language_name": "Ligurian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Ligurian (GLT)"
+      },
+      {
+        "model": "lt_alksnis",
+        "language_iso": "lt",
+        "language_name": "Lithuanian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Lithuanian (ALKSNIS)"
+      },
+      {
+        "model": "lt_hse",
+        "language_iso": "lt",
+        "language_name": "Lithuanian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Lithuanian (HSE)"
+      },
+      {
+        "model": "lv_lvtb",
+        "language_iso": "lv",
+        "language_name": "Latvian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Latvian (LVTB)"
+      },
+      {
+        "model": "lzh_kyoto",
+        "language_iso": "lzh",
+        "language_name": "Classical Chinese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Classical Chinese (KYOTO)"
+      },
+      {
+        "model": "mr_ufal",
+        "language_iso": "mr",
+        "language_name": "Marathi",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Marathi (UFAL)"
+      },
+      {
+        "model": "mt_mudt",
+        "language_iso": "mt",
+        "language_name": "Maltese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Maltese (MUDT)"
+      },
+      {
+        "model": "my_alt",
+        "language_iso": "my",
+        "language_name": "Myanmar",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": false,
+        "description": "Myanmar (ALT)"
+      },
+      {
+        "model": "myv_jr",
+        "language_iso": "myv",
+        "language_name": "Erzya",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Erzya (JR)"
+      },
+      {
+        "model": "nb_bokmaal",
+        "language_iso": "nb",
+        "language_name": "Norwegian (Bokmaal)",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Norwegian (BOKMAAL)"
+      },
+      {
+        "model": "nds_lsdc",
+        "language_iso": "nds",
+        "language_name": "Low Saxon",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Low Saxon (LSDC)"
+      },
+      {
+        "model": "nl_alpino",
+        "language_iso": "nl",
+        "language_name": "Dutch",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Dutch (ALPINO)"
+      },
+      {
+        "model": "nl_lassysmall",
+        "language_iso": "nl",
+        "language_name": "Dutch",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Dutch (LASSYSMALL)"
+      },
+      {
+        "model": "nn_nynorsk",
+        "language_iso": "nn",
+        "language_name": "Norwegian Nynorsk",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Norwegian Nynorsk (NYNORSK)"
+      },
+      {
+        "model": "orv_birchbark",
+        "language_iso": "orv",
+        "language_name": "Old East Slavic",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": false,
+        "description": "Old East Slavic (BIRCHBARK)"
+      },
+      {
+        "model": "orv_rnc",
+        "language_iso": "orv",
+        "language_name": "Old East Slavic",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": false,
+        "description": "Old East Slavic (RNC)"
+      },
+      {
+        "model": "orv_ruthenian",
+        "language_iso": "orv",
+        "language_name": "Old East Slavic",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": false,
+        "description": "Old East Slavic (RUTHENIAN)"
+      },
+      {
+        "model": "orv_torot",
+        "language_iso": "orv",
+        "language_name": "Old East Slavic",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": true,
+        "description": "Old East Slavic (TOROT)"
+      },
+      {
+        "model": "ota_boun",
+        "language_iso": "ota",
+        "language_name": "Ottoman Turkish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Ottoman Turkish (BOUN)"
+      },
+      {
+        "model": "pcm_nsc",
+        "language_iso": "pcm",
+        "language_name": "Naija",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": true,
+        "description": "Naija (NSC)"
+      },
+      {
+        "model": "pl_lfg",
+        "language_iso": "pl",
+        "language_name": "Polish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Polish (LFG)"
+      },
+      {
+        "model": "pl_pdb",
+        "language_iso": "pl",
+        "language_name": "Polish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Polish (PDB)"
+      },
+      {
+        "model": "pt_bosque",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Portuguese (BOSQUE)"
+      },
+      {
+        "model": "pt_cintil",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Portuguese (CINTIL)"
+      },
+      {
+        "model": "pt_dantestocks",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Portuguese (DANTESTOCKS)"
+      },
+      {
+        "model": "pt_gsd",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Portuguese (GSD)"
+      },
+      {
+        "model": "pt_petrogold",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Portuguese (PETROGOLD)"
+      },
+      {
+        "model": "pt_porttinari",
+        "language_iso": "pt",
+        "language_name": "Portuguese",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Portuguese (PORTTINARI)"
+      },
+      {
+        "model": "qaf_arabizi",
+        "language_iso": "qaf",
+        "language_name": "Maghrebi Arabic French",
+        "components": [
+          "tokenizer",
+          "mwt"
+        ],
+        "preferred": true,
+        "description": "Maghrebi Arabic French (ARABIZI)"
+      },
+      {
+        "model": "qpm_philotis",
+        "language_iso": "qpm",
+        "language_name": "Pomak",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": true,
+        "description": "Pomak (PHILOTIS)"
+      },
+      {
+        "model": "qtd_sagt",
+        "language_iso": "qtd",
+        "language_name": "Turkish German",
+        "components": [
+          "tokenizer",
+          "mwt"
+        ],
+        "preferred": true,
+        "description": "Turkish German (SAGT)"
+      },
+      {
+        "model": "ro_nonstandard",
+        "language_iso": "ro",
+        "language_name": "Romanian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Romanian (NONSTANDARD)"
+      },
+      {
+        "model": "ro_rrt",
+        "language_iso": "ro",
+        "language_name": "Romanian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Romanian (RRT)"
+      },
+      {
+        "model": "ro_simonero",
+        "language_iso": "ro",
+        "language_name": "Romanian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Romanian (SIMONERO)"
+      },
+      {
+        "model": "ru_gsd",
+        "language_iso": "ru",
+        "language_name": "Russian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Russian (GSD)"
+      },
+      {
+        "model": "ru_poetry",
+        "language_iso": "ru",
+        "language_name": "Russian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Russian (POETRY)"
+      },
+      {
+        "model": "ru_syntagrus",
+        "language_iso": "ru",
+        "language_name": "Russian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Russian (SYNTAGRUS)"
+      },
+      {
+        "model": "ru_taiga",
+        "language_iso": "ru",
+        "language_name": "Russian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Russian (TAIGA)"
+      },
+      {
+        "model": "sa_vedic",
+        "language_iso": "sa",
+        "language_name": "Sanskrit",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Sanskrit (VEDIC)"
+      },
+      {
+        "model": "sd_isra",
+        "language_iso": "sd",
+        "language_name": "Sindhi",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Sindhi (ISRA)"
+      },
+      {
+        "model": "sk_snk",
+        "language_iso": "sk",
+        "language_name": "Slovak",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Slovak (SNK)"
+      },
+      {
+        "model": "sl_ssj",
+        "language_iso": "sl",
+        "language_name": "Slovenian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Slovenian (SSJ)"
+      },
+      {
+        "model": "sl_sst",
+        "language_iso": "sl",
+        "language_name": "Slovenian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Slovenian (SST)"
+      },
+      {
+        "model": "sme_giella",
+        "language_iso": "sme",
+        "language_name": "North Sami",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "North Sami (GIELLA)"
+      },
+      {
+        "model": "sq_staf",
+        "language_iso": "sq",
+        "language_name": "Albanian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Albanian (STAF)"
+      },
+      {
+        "model": "sr_set",
+        "language_iso": "sr",
+        "language_name": "Serbian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Serbian (SET)"
+      },
+      {
+        "model": "sv_lines",
+        "language_iso": "sv",
+        "language_name": "Swedish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Swedish (LINES)"
+      },
+      {
+        "model": "sv_talbanken",
+        "language_iso": "sv",
+        "language_name": "Swedish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Swedish (TALBANKEN)"
+      },
+      {
+        "model": "ta_ttb",
+        "language_iso": "ta",
+        "language_name": "Tamil",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Tamil (TTB)"
+      },
+      {
+        "model": "te_mtg",
+        "language_iso": "te",
+        "language_name": "Telugu",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Telugu (MTG)"
+      },
+      {
+        "model": "th_orchid",
+        "language_iso": "th",
+        "language_name": "Thai",
+        "components": [
+          "tokenizer"
+        ],
+        "preferred": false,
+        "description": "Thai (ORCHID)"
+      },
+      {
+        "model": "th_tud",
+        "language_iso": "th",
+        "language_name": "Thai",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Thai (TUD)"
+      },
+      {
+        "model": "tr_atis",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (ATIS)"
+      },
+      {
+        "model": "tr_boun",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (BOUN)"
+      },
+      {
+        "model": "tr_framenet",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (FRAMENET)"
+      },
+      {
+        "model": "tr_imst",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Turkish (IMST)"
+      },
+      {
+        "model": "tr_kenet",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (KENET)"
+      },
+      {
+        "model": "tr_penn",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (PENN)"
+      },
+      {
+        "model": "tr_tourism",
+        "language_iso": "tr",
+        "language_name": "Turkish",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Turkish (TOURISM)"
+      },
+      {
+        "model": "ug_udt",
+        "language_iso": "ug",
+        "language_name": "Uyghur",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Uyghur (UDT)"
+      },
+      {
+        "model": "uk_iu",
+        "language_iso": "uk",
+        "language_name": "Ukrainian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Ukrainian (IU)"
+      },
+      {
+        "model": "uk_parlamint",
+        "language_iso": "uk",
+        "language_name": "Ukrainian",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": false,
+        "description": "Ukrainian (PARLAMINT)"
+      },
+      {
+        "model": "ur_udtb",
+        "language_iso": "ur",
+        "language_name": "Urdu",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Urdu (UDTB)"
+      },
+      {
+        "model": "vi_vtb",
+        "language_iso": "vi",
+        "language_name": "Vietnamese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Vietnamese (VTB)"
+      },
+      {
+        "model": "wo_wtb",
+        "language_iso": "wo",
+        "language_name": "Wolof",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Wolof (WTB)"
+      },
+      {
+        "model": "xcl_caval",
+        "language_iso": "xcl",
+        "language_name": "Classical Armenian",
+        "components": [
+          "tokenizer",
+          "mwt",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Classical Armenian (CAVAL)"
+      },
+      {
+        "model": "zh-hans_gsdsimp",
+        "language_iso": "zh-hans",
+        "language_name": "Simplified Chinese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Simplified Chinese (GSDSIMP)"
+      },
+      {
+        "model": "zh-hant_gsd",
+        "language_iso": "zh-hant",
+        "language_name": "Traditional Chinese",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "Traditional Chinese (GSD)"
+      }
+    ],
     "flexipipe": [],
-    "official": [],
     "community": []
   }
 }
-
