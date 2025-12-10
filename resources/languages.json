@@ -1,0 +1,1728 @@
+{
+  "languages": [
+    {
+      "iso_639_1": "af",
+      "iso_639_2": "afr",
+      "iso_639_3": "afr",
+      "primary_name": "Afrikaans",
+      "variants": [
+        "afrikaans"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "sq",
+      "iso_639_2": "sqi",
+      "iso_639_3": "sqi",
+      "primary_name": "Albanian",
+      "variants": [
+        "albanian",
+        "shqip"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Alsatian",
+      "variants": [
+        "alsatian"
+      ],
+      "aliases": [
+        "gsw-al"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "grc",
+      "primary_name": "Ancient Greek",
+      "variants": [
+        "ancient greek",
+        "classical greek"
+      ],
+      "aliases": [
+        "grc"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "hbo",
+      "primary_name": "Ancient Hebrew",
+      "variants": [
+        "ancient hebrew",
+        "biblical hebrew"
+      ],
+      "aliases": [
+        "hbo"
+      ]
+    },
+    {
+      "iso_639_1": "ar",
+      "iso_639_2": "ara",
+      "iso_639_3": "ara",
+      "primary_name": "Arabic",
+      "variants": [
+        "arabic",
+        "العربية"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Aranese",
+      "variants": [
+        "aranese",
+        "occitan (aranese)"
+      ],
+      "aliases": [
+        "oci-ar"
+      ]
+    },
+    {
+      "iso_639_1": "hy",
+      "iso_639_2": "hye",
+      "iso_639_3": "hye",
+      "primary_name": "Armenian",
+      "variants": [
+        "armenian",
+        "հայերեն"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "awa",
+      "primary_name": "Awadhi",
+      "variants": [
+        "awadhi"
+      ],
+      "aliases": [
+        "awa"
+      ]
+    },
+    {
+      "iso_639_1": "bm",
+      "iso_639_2": null,
+      "iso_639_3": "bam",
+      "primary_name": "Bambara",
+      "variants": [
+        "bambara"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "eu",
+      "iso_639_2": "eus",
+      "iso_639_3": "eus",
+      "primary_name": "Basque",
+      "variants": [
+        "basque",
+        "euskara"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "be",
+      "iso_639_2": "bel",
+      "iso_639_3": "bel",
+      "primary_name": "Belarusian",
+      "variants": [
+        "belarusian",
+        "беларуская"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "bor",
+      "primary_name": "Bororo",
+      "variants": [
+        "bororo"
+      ],
+      "aliases": [
+        "bor"
+      ]
+    },
+    {
+      "iso_639_1": "br",
+      "iso_639_2": "bre",
+      "iso_639_3": "bre",
+      "primary_name": "Breton",
+      "variants": [
+        "breton"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "bg",
+      "iso_639_2": "bul",
+      "iso_639_3": "bul",
+      "primary_name": "Bulgarian",
+      "variants": [
+        "bulgarian",
+        "български"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "bxr",
+      "primary_name": "Buryat",
+      "variants": [
+        "buryat"
+      ],
+      "aliases": [
+        "bxr"
+      ]
+    },
+    {
+      "iso_639_1": "ca",
+      "iso_639_2": "cat",
+      "iso_639_3": "cat",
+      "primary_name": "Catalan",
+      "variants": [
+        "catalan",
+        "català"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "zh",
+      "iso_639_2": "zho",
+      "iso_639_3": "zho",
+      "primary_name": "Chinese",
+      "variants": [
+        "chinese",
+        "中文",
+        "mandarin"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "ckt",
+      "primary_name": "Chukot",
+      "variants": [
+        "chukot"
+      ],
+      "aliases": [
+        "ckt"
+      ]
+    },
+    {
+      "iso_639_1": "cu",
+      "iso_639_2": "chu",
+      "iso_639_3": "chu",
+      "primary_name": "Church Slavonic",
+      "variants": [
+        "church slavonic",
+        "old church slavonic",
+        "old_church_slavonic"
+      ],
+      "aliases": [
+        "old_ch"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "xcl",
+      "primary_name": "Classical Armenian",
+      "variants": [
+        "classical armenian",
+        "classical_armenian"
+      ],
+      "aliases": [
+        "xcl"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "lzh",
+      "primary_name": "Classical Chinese",
+      "variants": [
+        "classical chinese",
+        "classical_chinese",
+        "文言"
+      ],
+      "aliases": [
+        "classi",
+        "lzh"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": "cop",
+      "iso_639_3": "cop",
+      "primary_name": "Coptic",
+      "variants": [
+        "coptic"
+      ],
+      "aliases": [
+        "cop"
+      ]
+    },
+    {
+      "iso_639_1": "hr",
+      "iso_639_2": "hrv",
+      "iso_639_3": "hrv",
+      "primary_name": "Croatian",
+      "variants": [
+        "croatian",
+        "hrvatski"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "cs",
+      "iso_639_2": "ces",
+      "iso_639_3": "ces",
+      "primary_name": "Czech",
+      "variants": [
+        "czech",
+        "čeština"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "da",
+      "iso_639_2": "dan",
+      "iso_639_3": "dan",
+      "primary_name": "Danish",
+      "variants": [
+        "danish",
+        "dansk"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "luo",
+      "primary_name": "Dholuo",
+      "variants": [
+        "dholuo",
+        "luo"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "nl",
+      "iso_639_2": "nld",
+      "iso_639_3": "nld",
+      "primary_name": "Dutch",
+      "variants": [
+        "dutch",
+        "nederlands"
+      ],
+      "aliases": ["Nederlands"]
+    },
+    {
+      "iso_639_1": "en",
+      "iso_639_2": "eng",
+      "iso_639_3": "eng",
+      "primary_name": "English",
+      "variants": [
+        "english"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "myv",
+      "primary_name": "Erzya",
+      "variants": [
+        "erzya"
+      ],
+      "aliases": [
+        "myv"
+      ]
+    },
+    {
+      "iso_639_1": "et",
+      "iso_639_2": "est",
+      "iso_639_3": "est",
+      "primary_name": "Estonian",
+      "variants": [
+        "estonian",
+        "eesti"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ee",
+      "iso_639_2": null,
+      "iso_639_3": "ewe",
+      "primary_name": "Ewe",
+      "variants": [
+        "ewe"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "fo",
+      "iso_639_2": "fao",
+      "iso_639_3": "fao",
+      "primary_name": "Faroese",
+      "variants": [
+        "faroese",
+        "føroyskt"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "fil",
+      "primary_name": "Filipino",
+      "variants": [
+        "filipino",
+        "tagalog"
+      ],
+      "aliases": [
+        "fil"
+      ]
+    },
+    {
+      "iso_639_1": "fi",
+      "iso_639_2": "fin",
+      "iso_639_3": "fin",
+      "primary_name": "Finnish",
+      "variants": [
+        "finnish",
+        "suomi"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "fon",
+      "primary_name": "Fon",
+      "variants": [
+        "fon"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "fr",
+      "iso_639_2": "fra",
+      "iso_639_3": "fra",
+      "primary_name": "French",
+      "variants": [
+        "french",
+        "français",
+        "francais"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "fy",
+      "iso_639_2": null,
+      "iso_639_3": "fry",
+      "primary_name": "Frisian",
+      "variants": [
+        "frisian"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "gl",
+      "iso_639_2": "glg",
+      "iso_639_3": "glg",
+      "primary_name": "Galician",
+      "variants": [
+        "galician",
+        "galego"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ka",
+      "iso_639_2": "kat",
+      "iso_639_3": "kat",
+      "primary_name": "Georgian",
+      "variants": [
+        "georgian",
+        "ქართული"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "de",
+      "iso_639_2": "deu",
+      "iso_639_3": "deu",
+      "primary_name": "German",
+      "variants": [
+        "german",
+        "deutsch"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "bbj",
+      "primary_name": "Ghomala",
+      "variants": [
+        "ghomala"
+      ],
+      "aliases": [
+        "bbj"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": "got",
+      "iso_639_3": "got",
+      "primary_name": "Gothic",
+      "variants": [
+        "gothic"
+      ],
+      "aliases": [
+        "got"
+      ]
+    },
+    {
+      "iso_639_1": "el",
+      "iso_639_2": "ell",
+      "iso_639_3": "ell",
+      "primary_name": "Greek",
+      "variants": [
+        "greek",
+        "ελληνικά"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Greek",
+      "variants": [
+        "greek",
+        "modern greek"
+      ],
+      "aliases": [
+        "cpg"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "gub",
+      "primary_name": "Guajajára",
+      "variants": [
+        "guajajára"
+      ],
+      "aliases": [
+        "gub"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "hat",
+      "primary_name": "Haitian Creole",
+      "variants": [
+        "haitian creole",
+        "haitian"
+      ],
+      "aliases": [
+        "haq"
+      ]
+    },
+    {
+      "iso_639_1": "ha",
+      "iso_639_2": null,
+      "iso_639_3": "hau",
+      "primary_name": "Hausa",
+      "variants": [
+        "hausa"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "he",
+      "iso_639_2": "heb",
+      "iso_639_3": "heb",
+      "primary_name": "Hebrew",
+      "variants": [
+        "hebrew",
+        "עברית"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "hi",
+      "iso_639_2": "hin",
+      "iso_639_3": "hin",
+      "primary_name": "Hindi",
+      "variants": [
+        "hindi",
+        "हिन्दी"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Hindi English",
+      "variants": [
+        "hindi english",
+        "code-switched"
+      ],
+      "aliases": [
+        "qhe"
+      ]
+    },
+    {
+      "iso_639_1": "hu",
+      "iso_639_2": "hun",
+      "iso_639_3": "hun",
+      "primary_name": "Hungarian",
+      "variants": [
+        "hungarian",
+        "magyar"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "is",
+      "iso_639_2": "isl",
+      "iso_639_3": "isl",
+      "primary_name": "Icelandic",
+      "variants": [
+        "icelandic",
+        "íslenska"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ig",
+      "iso_639_2": null,
+      "iso_639_3": "ibo",
+      "primary_name": "Igbo",
+      "variants": [
+        "igbo"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "id",
+      "iso_639_2": "ind",
+      "iso_639_3": "ind",
+      "primary_name": "Indonesian",
+      "variants": [
+        "indonesian",
+        "bahasa indonesia"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ga",
+      "iso_639_2": "gle",
+      "iso_639_3": "gle",
+      "primary_name": "Irish",
+      "variants": [
+        "irish",
+        "gaeilge"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "nde",
+      "primary_name": "isiNdebele",
+      "variants": [
+        "ndebele",
+        "isindebele"
+      ],
+      "aliases": [
+        "nr"
+      ]
+    },
+    {
+      "iso_639_1": "xh",
+      "iso_639_2": null,
+      "iso_639_3": "xho",
+      "primary_name": "isiXhosa",
+      "variants": [
+        "xhosa",
+        "isixhosa"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "zu",
+      "iso_639_2": null,
+      "iso_639_3": "zul",
+      "primary_name": "isiZulu",
+      "variants": [
+        "zulu",
+        "isizulu"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "it",
+      "iso_639_2": "ita",
+      "iso_639_3": "ita",
+      "primary_name": "Italian",
+      "variants": [
+        "italian",
+        "italiano"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ja",
+      "iso_639_2": "jpn",
+      "iso_639_3": "jpn",
+      "primary_name": "Japanese",
+      "variants": [
+        "japanese",
+        "日本語"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "jvn",
+      "primary_name": "Javanese",
+      "variants": [
+        "javanese"
+      ],
+      "aliases": [
+        "jvn"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "kab",
+      "primary_name": "Kabyle",
+      "variants": [
+        "kabyle"
+      ],
+      "aliases": [
+        "kab"
+      ]
+    },
+    {
+      "iso_639_1": "kk",
+      "iso_639_2": "kaz",
+      "iso_639_3": "kaz",
+      "primary_name": "Kazakh",
+      "variants": [
+        "kazakh",
+        "қазақ"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "rw",
+      "iso_639_2": null,
+      "iso_639_3": "kin",
+      "primary_name": "Kinyarwanda",
+      "variants": [
+        "kinyarwanda"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ko",
+      "iso_639_2": "kor",
+      "iso_639_3": "kor",
+      "primary_name": "Korean",
+      "variants": [
+        "korean",
+        "한국어"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "kmr",
+      "primary_name": "Kurmanji",
+      "variants": [
+        "kurmanji"
+      ],
+      "aliases": [
+        "kmr"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "kir",
+      "primary_name": "Kyrgyz",
+      "variants": [
+        "kyrgyz",
+        "кыргыз"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "lad",
+      "primary_name": "Ladino",
+      "variants": [
+        "ladino",
+        "judeo-spanish"
+      ],
+      "aliases": [
+        "lad"
+      ]
+    },
+    {
+      "iso_639_1": "la",
+      "iso_639_2": "lat",
+      "iso_639_3": "lat",
+      "primary_name": "Latin",
+      "variants": [
+        "latin",
+        "latina"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "lv",
+      "iso_639_2": "lav",
+      "iso_639_3": "lav",
+      "primary_name": "Latvian",
+      "variants": [
+        "latvian",
+        "latviešu"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "lij",
+      "primary_name": "Ligurian",
+      "variants": [
+        "ligurian"
+      ],
+      "aliases": [
+        "lij"
+      ]
+    },
+    {
+      "iso_639_1": "lt",
+      "iso_639_2": "lit",
+      "iso_639_3": "lit",
+      "primary_name": "Lithuanian",
+      "variants": [
+        "lithuanian",
+        "lietuvių"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Low Saxon",
+      "variants": [
+        "low saxon",
+        "plattdüütsch"
+      ],
+      "aliases": [
+        "khb"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "bxk",
+      "primary_name": "Lubukusu",
+      "variants": [
+        "lubukusu"
+      ],
+      "aliases": [
+        "bxk"
+      ]
+    },
+    {
+      "iso_639_1": "lg",
+      "iso_639_2": null,
+      "iso_639_3": "lug",
+      "primary_name": "Luganda",
+      "variants": [
+        "luganda"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "rag",
+      "primary_name": "Lulogooli",
+      "variants": [
+        "lulogooli"
+      ],
+      "aliases": [
+        "rag"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "lri",
+      "primary_name": "Lumarachi",
+      "variants": [
+        "lumarachi"
+      ],
+      "aliases": [
+        "lri"
+      ]
+    },
+    {
+      "iso_639_1": "mk",
+      "iso_639_2": "mkd",
+      "iso_639_3": "mkd",
+      "primary_name": "Macedonian",
+      "variants": [
+        "macedonian",
+        "македонски"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Maghrebi Arabic French",
+      "variants": [
+        "maghrebi arabic french",
+        "arabizi"
+      ],
+      "aliases": [
+        "maghre"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "zsm",
+      "primary_name": "Malay",
+      "variants": [
+        "malay"
+      ],
+      "aliases": [
+        "zsm"
+      ]
+    },
+    {
+      "iso_639_1": "mt",
+      "iso_639_2": "mlt",
+      "iso_639_3": "mlt",
+      "primary_name": "Maltese",
+      "variants": [
+        "maltese",
+        "malti"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "gv",
+      "iso_639_2": "glv",
+      "iso_639_3": "glv",
+      "primary_name": "Manx",
+      "variants": [
+        "manx",
+        "gaelic (manx)"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "mr",
+      "iso_639_2": "mar",
+      "iso_639_3": "mar",
+      "primary_name": "Marathi",
+      "variants": [
+        "marathi",
+        "मराठी"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "mos",
+      "primary_name": "Moore",
+      "variants": [
+        "moore"
+      ],
+      "aliases": [
+        "mos"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Multilingual",
+      "variants": [
+        "multilingual",
+        "multi-language"
+      ],
+      "aliases": [
+        "xx"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "nhi",
+      "primary_name": "Nahuatl (Western Sierra Puebla)",
+      "variants": [
+        "nahuatl"
+      ],
+      "aliases": [
+        "nhi"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Nametag3",
+      "variants": [
+        "nametag3"
+      ],
+      "aliases": [
+        "nbt"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "yrl",
+      "primary_name": "Nheengatu",
+      "variants": [
+        "nheengatu"
+      ],
+      "aliases": [
+        "yrl"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "pcm",
+      "primary_name": "Nigerian Pidgin",
+      "variants": [
+        "nigerian pidgin",
+        "naija"
+      ],
+      "aliases": [
+        "bio",
+        "pcm"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "sme",
+      "primary_name": "North Sami",
+      "variants": [
+        "north sami",
+        "northern sami"
+      ],
+      "aliases": [
+        "north_"
+      ]
+    },
+    {
+      "iso_639_1": "no",
+      "iso_639_2": "nor",
+      "iso_639_3": "nor",
+      "primary_name": "Norwegian",
+      "variants": [
+        "norwegian",
+        "norsk"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "nb",
+      "iso_639_2": "nob",
+      "iso_639_3": "nob",
+      "primary_name": "Norwegian Bokmål",
+      "variants": [
+        "norwegian bokmål",
+        "bokmål"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "nn",
+      "iso_639_2": "nno",
+      "iso_639_3": "nno",
+      "primary_name": "Norwegian Nynorsk",
+      "variants": [
+        "norwegian nynorsk",
+        "nynorsk"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ny",
+      "iso_639_2": null,
+      "iso_639_3": "nya",
+      "primary_name": "Nyanja",
+      "variants": [
+        "nyanja",
+        "chichewa"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "oci",
+      "primary_name": "Occitan",
+      "variants": [
+        "occitan"
+      ],
+      "aliases": [
+        "oc"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "orv",
+      "primary_name": "Old East Slavic",
+      "variants": [
+        "old east slavic",
+        "old_east_slavic",
+        "old russian",
+        "ruthenian"
+      ],
+      "aliases": [
+        "old_ea",
+        "orv"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "ang",
+      "primary_name": "Old English",
+      "variants": [
+        "old english",
+        "anglo-saxon"
+      ],
+      "aliases": [
+        "ang"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "fro",
+      "primary_name": "Old French",
+      "variants": [
+        "old french",
+        "ancien français"
+      ],
+      "aliases": [
+        "fro"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "sga",
+      "primary_name": "Old Irish",
+      "variants": [
+        "old irish"
+      ],
+      "aliases": [
+        "sga"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "non",
+      "primary_name": "Old Norse",
+      "variants": [
+        "old norse"
+      ],
+      "aliases": [
+        "non"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Old Portuguese",
+      "variants": [
+        "old portuguese"
+      ],
+      "aliases": [
+        "por-ol"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "osp",
+      "primary_name": "Old Spanish",
+      "variants": [
+        "old spanish"
+      ],
+      "aliases": [
+        "osp"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "ota",
+      "primary_name": "Ottoman Turkish",
+      "variants": [
+        "ottoman turkish"
+      ],
+      "aliases": [
+        "ota"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "pap",
+      "primary_name": "Papiamento",
+      "variants": [
+        "papiamento"
+      ],
+      "aliases": [
+        "pap"
+      ]
+    },
+    {
+      "iso_639_1": "fa",
+      "iso_639_2": "fas",
+      "iso_639_3": "fas",
+      "primary_name": "Persian",
+      "variants": [
+        "persian",
+        "farsi",
+        "فارسی"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "pcd",
+      "primary_name": "Picard",
+      "variants": [
+        "picard"
+      ],
+      "aliases": [
+        "pcd"
+      ]
+    },
+    {
+      "iso_639_1": "pl",
+      "iso_639_2": "pol",
+      "iso_639_3": "pol",
+      "primary_name": "Polish",
+      "variants": [
+        "polish",
+        "polski"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "pmo",
+      "primary_name": "Pomak",
+      "variants": [
+        "pomak"
+      ],
+      "aliases": [
+        "pmo"
+      ]
+    },
+    {
+      "iso_639_1": "pt",
+      "iso_639_2": "por",
+      "iso_639_3": "por",
+      "primary_name": "Portuguese",
+      "variants": [
+        "portuguese",
+        "português",
+        "portugues"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "pa",
+      "iso_639_2": null,
+      "iso_639_3": "pan",
+      "primary_name": "Punjabi",
+      "variants": [
+        "punjabi"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ro",
+      "iso_639_2": "ron",
+      "iso_639_3": "ron",
+      "primary_name": "Romanian",
+      "variants": [
+        "romanian",
+        "română",
+        "romana"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ru",
+      "iso_639_2": "rus",
+      "iso_639_3": "rus",
+      "primary_name": "Russian",
+      "variants": [
+        "russian",
+        "русский"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "sa",
+      "iso_639_2": "san",
+      "iso_639_3": "san",
+      "primary_name": "Sanskrit",
+      "variants": [
+        "sanskrit",
+        "संस्कृत"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "gd",
+      "iso_639_2": "gla",
+      "iso_639_3": "gla",
+      "primary_name": "Scottish Gaelic",
+      "variants": [
+        "scottish gaelic",
+        "gaelic"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "sr",
+      "iso_639_2": "srp",
+      "iso_639_3": "srp",
+      "primary_name": "Serbian",
+      "variants": [
+        "serbian",
+        "српски"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "sot",
+      "primary_name": "Sesotho",
+      "variants": [
+        "sesotho",
+        "southern sotho"
+      ],
+      "aliases": [
+        "st"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "nso",
+      "primary_name": "Sesotho sa Leboa",
+      "variants": [
+        "sesotho sa leboa",
+        "northern sotho"
+      ],
+      "aliases": [
+        "nso"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "tsn",
+      "primary_name": "Setswana",
+      "variants": [
+        "setswana",
+        "tswana"
+      ],
+      "aliases": [
+        "tn"
+      ]
+    },
+    {
+      "iso_639_1": "sn",
+      "iso_639_2": null,
+      "iso_639_3": "sna",
+      "primary_name": "Shona",
+      "variants": [
+        "shona"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "sd",
+      "iso_639_2": null,
+      "iso_639_3": "snd",
+      "primary_name": "Sindhi",
+      "variants": [
+        "sindhi"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "ssw",
+      "primary_name": "SiSwati",
+      "variants": [
+        "siswati",
+        "swati"
+      ],
+      "aliases": [
+        "ss"
+      ]
+    },
+    {
+      "iso_639_1": "sk",
+      "iso_639_2": "slk",
+      "iso_639_3": "slk",
+      "primary_name": "Slovak",
+      "variants": [
+        "slovak",
+        "slovenčina"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "sl",
+      "iso_639_2": "slv",
+      "iso_639_3": "slv",
+      "primary_name": "Slovenian",
+      "variants": [
+        "slovenian",
+        "slovenski"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "es",
+      "iso_639_2": "spa",
+      "iso_639_3": "spa",
+      "primary_name": "Spanish",
+      "variants": [
+        "spanish",
+        "español",
+        "espanol",
+        "castillian",
+        "castilian"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "srn",
+      "primary_name": "Sranan Tongo",
+      "variants": [
+        "sranan tongo"
+      ],
+      "aliases": [
+        "srn"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "swa",
+      "primary_name": "Swahili",
+      "variants": [
+        "swahili"
+      ],
+      "aliases": [
+        "swh"
+      ]
+    },
+    {
+      "iso_639_1": "sv",
+      "iso_639_2": "swe",
+      "iso_639_3": "swe",
+      "primary_name": "Swedish",
+      "variants": [
+        "swedish",
+        "svenska"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "swl",
+      "primary_name": "Swedish Sign Language",
+      "variants": [
+        "swedish sign language"
+      ],
+      "aliases": [
+        "swl"
+      ]
+    },
+    {
+      "iso_639_1": "ta",
+      "iso_639_2": "tam",
+      "iso_639_3": "tam",
+      "primary_name": "Tamil",
+      "variants": [
+        "tamil",
+        "தமிழ்"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "te",
+      "iso_639_2": "tel",
+      "iso_639_3": "tel",
+      "primary_name": "Telugu",
+      "variants": [
+        "telugu",
+        "తెలుగు"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "th",
+      "iso_639_2": "tha",
+      "iso_639_3": "tha",
+      "primary_name": "Thai",
+      "variants": [
+        "thai",
+        "ไทย"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "ven",
+      "primary_name": "Tshivenda",
+      "variants": [
+        "tshivenda",
+        "venda"
+      ],
+      "aliases": [
+        "ve"
+      ]
+    },
+    {
+      "iso_639_1": "tr",
+      "iso_639_2": "tur",
+      "iso_639_3": "tur",
+      "primary_name": "Turkish",
+      "variants": [
+        "turkish",
+        "türkçe",
+        "turkce"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": null,
+      "primary_name": "Turkish German",
+      "variants": [
+        "turkish german",
+        "sagt"
+      ],
+      "aliases": [
+        "mjg"
+      ]
+    },
+    {
+      "iso_639_1": "tw",
+      "iso_639_2": null,
+      "iso_639_3": "twi",
+      "primary_name": "Twi",
+      "variants": [
+        "twi"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "uk",
+      "iso_639_2": "ukr",
+      "iso_639_3": "ukr",
+      "primary_name": "Ukrainian",
+      "variants": [
+        "ukrainian",
+        "українська"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "hsb",
+      "primary_name": "Upper Sorbian",
+      "variants": [
+        "upper sorbian",
+        "sorbian (upper)"
+      ],
+      "aliases": [
+        "hsb"
+      ]
+    },
+    {
+      "iso_639_1": "ur",
+      "iso_639_2": "urd",
+      "iso_639_3": "urd",
+      "primary_name": "Urdu",
+      "variants": [
+        "urdu",
+        "اردو"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "ug",
+      "iso_639_2": "uig",
+      "iso_639_3": "uig",
+      "primary_name": "Uyghur",
+      "variants": [
+        "uyghur",
+        "uygur",
+        "ئۇيغۇرچە"
+      ],
+      "aliases": [
+        "uuu"
+      ]
+    },
+    {
+      "iso_639_1": "vi",
+      "iso_639_2": "vie",
+      "iso_639_3": "vie",
+      "primary_name": "Vietnamese",
+      "variants": [
+        "vietnamese",
+        "tiếng việt",
+        "tieng viet"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": "cy",
+      "iso_639_2": "cym",
+      "iso_639_3": "cym",
+      "primary_name": "Welsh",
+      "variants": [
+        "welsh",
+        "cymraeg"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "hyw",
+      "primary_name": "Western Armenian",
+      "variants": [
+        "western armenian"
+      ],
+      "aliases": [
+        "hyw"
+      ]
+    },
+    {
+      "iso_639_1": "wo",
+      "iso_639_2": null,
+      "iso_639_3": "wol",
+      "primary_name": "Wolof",
+      "variants": [
+        "wolof"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "sjo",
+      "primary_name": "Xibe",
+      "variants": [
+        "xibe"
+      ],
+      "aliases": [
+        "sjo"
+      ]
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "tso",
+      "primary_name": "Xitsonga",
+      "variants": [
+        "xitsonga",
+        "tsonga"
+      ],
+      "aliases": [
+        "ts"
+      ]
+    },
+    {
+      "iso_639_1": "yo",
+      "iso_639_2": "yor",
+      "iso_639_3": "yor",
+      "primary_name": "Yoruba",
+      "variants": [
+        "yoruba"
+      ],
+      "aliases": []
+    },
+    {
+      "iso_639_1": null,
+      "iso_639_2": null,
+      "iso_639_3": "say",
+      "primary_name": "Zaar",
+      "variants": [
+        "zaar"
+      ],
+      "aliases": [
+        "say"
+      ]
+    }
+  ]
+}
