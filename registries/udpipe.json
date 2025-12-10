@@ -474,8 +474,9 @@
       },
       {
         "model": "erzya-jr-ud-2.17-251125",
-        "language_iso": "erzya",
+        "language_iso": "myv",
         "language_name": "Erzya",
+        "glottolog": "erzy1239",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
           "tokenizer",
@@ -1111,7 +1112,7 @@
       },
       {
         "model": "kyrgyz-ktmu-ud-2.17-251125",
-        "language_iso": "kyrgyz",
+        "language_iso": "ky",
         "language_name": "Kyrgyz",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1215,7 +1216,7 @@
       },
       {
         "model": "lithuanian-alksnis-ud-2.17-251125",
-        "language_iso": "lithuanian",
+        "language_iso": "lt",
         "language_name": "Lithuanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1228,7 +1229,7 @@
       },
       {
         "model": "lithuanian-hse-ud-2.17-251125",
-        "language_iso": "lithuanian",
+        "language_iso": "lt",
         "language_name": "Lithuanian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1267,7 +1268,7 @@
       },
       {
         "model": "maltese-mudt-ud-2.17-251125",
-        "language_iso": "maltese",
+        "language_iso": "mt",
         "language_name": "Maltese",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1280,7 +1281,7 @@
       },
       {
         "model": "manx-cadhan-ud-2.17-251125",
-        "language_iso": "manx",
+        "language_iso": "gv",
         "language_name": "Manx",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1293,7 +1294,7 @@
       },
       {
         "model": "marathi-ufal-ud-2.17-251125",
-        "language_iso": "marathi",
+        "language_iso": "mr",
         "language_name": "Marathi",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1384,7 +1385,7 @@
       },
       {
         "model": "occitan-ttb-ud-2.17-251125",
-        "language_iso": "occitan",
+        "language_iso": "oc",
         "language_name": "Occitan",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1748,7 +1749,7 @@
       },
       {
         "model": "sanskrit-vedic-ud-2.17-251125",
-        "language_iso": "sanskrit",
+        "language_iso": "sa",
         "language_name": "Sanskrit",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1761,7 +1762,7 @@
       },
       {
         "model": "scottish_gaelic-arcosg-ud-2.17-251125",
-        "language_iso": "scottish_gaelic",
+        "language_iso": "gd",
         "language_name": "Scottish gaelic",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1774,7 +1775,7 @@
       },
       {
         "model": "serbian-set-ud-2.17-251125",
-        "language_iso": "serbian",
+        "language_iso": "sr",
         "language_name": "Serbian",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1800,7 +1801,7 @@
       },
       {
         "model": "sindhi-isra-ud-2.17-251125",
-        "language_iso": "sindhi",
+        "language_iso": "sd",
         "language_name": "Sindhi",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1917,7 +1918,7 @@
       },
       {
         "model": "tamil-ttb-ud-2.17-251125",
-        "language_iso": "tamil",
+        "language_iso": "ta",
         "language_name": "Tamil",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1930,7 +1931,7 @@
       },
       {
         "model": "telugu-mtg-ud-2.17-251125",
-        "language_iso": "telugu",
+        "language_iso": "te",
         "language_name": "Telugu",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -1943,7 +1944,7 @@
       },
       {
         "model": "thai-tud-ud-2.17-251125",
-        "language_iso": "thai",
+        "language_iso": "th",
         "language_name": "Thai",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2086,7 +2087,7 @@
       },
       {
         "model": "urdu-udtb-ud-2.17-251125",
-        "language_iso": "urdu",
+        "language_iso": "ur",
         "language_name": "Urdu",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2099,7 +2100,7 @@
       },
       {
         "model": "uyghur-udt-ud-2.17-251125",
-        "language_iso": "uyghur",
+        "language_iso": "ug",
         "language_name": "Uyghur",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2112,7 +2113,7 @@
       },
       {
         "model": "uzbek-uzudt-ud-2.17-251125",
-        "language_iso": "uzbek",
+        "language_iso": "uz",
         "language_name": "Uzbek",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2138,7 +2139,7 @@
       },
       {
         "model": "welsh-ccg-ud-2.17-251125",
-        "language_iso": "welsh",
+        "language_iso": "cy",
         "language_name": "Welsh",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2164,7 +2165,7 @@
       },
       {
         "model": "wolof-wtb-ud-2.17-251125",
-        "language_iso": "wolof",
+        "language_iso": "wo",
         "language_name": "Wolof",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2177,7 +2178,7 @@
       },
       {
         "model": "yiddish-yitb-ud-2.17-251125",
-        "language_iso": "yiddish",
+        "language_iso": "yi",
         "language_name": "Yiddish",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
@@ -2190,7 +2191,7 @@
       },
       {
         "model": "zaar-autogramm-ud-2.17-251125",
-        "language_iso": "zaar",
+        "language_iso": "say-zaar",
         "language_name": "Zaar",
         "features": "tokenization, lemma, upos, xpos, feats, depparse",
         "components": [
