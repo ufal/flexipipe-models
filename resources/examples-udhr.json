@@ -1943,17 +1943,17 @@
     "display": "Crimean Tatar",
     "text": "Bütün insanlar serbestlik, menlik ve uquqlarda musaviy olıp dünyağa keleler. Olar aqıl ve vicdan saibidirler ve biri-birilerinen qardaşçasına munasebette bulunmalıdırlar"
   },
-  "swe": {
+  "swe-var": {
     "key": "swe-var",
     "iso3": "swe",
     "display": "Värmlandic",
     "text": "All mensher ä född fri å ä lik i vaaL å rätt. De 'a gûes ômdömm å samvett å boL hannel a varanner i broderskapsånn."
   },
-  "sv": {
+  "swe": {
     "key": "swe-var",
     "iso3": "swe",
-    "display": "Värmlandic",
-    "text": "All mensher ä född fri å ä lik i vaaL å rätt. De 'a gûes ômdömm å samvett å boL hannel a varanner i broderskapsånn."
+    "display": "Swedish",
+    "text": "Alla människor äro födda fria och lika i värde och rättigheter. De äro utrustade med förnuft och samvete och böra handla gentemot varandra i en anda av broderskap."
   },
   "bem": {
     "key": "bem",
@@ -3298,5 +3298,11 @@
     "iso3": "gnw",
     "display": "Guarani, Western Bolivian",
     "text": "Opaete vaeko oa mbae jare oñomboete. Opaete vaeko guinoi arakua jare piapotaa, jaeramoko oyoguirekota metei rëtará rami."
+  },
+  "orv": {
+  	"key": "orv",
+  	"iso3": "orv",
+  	"display": "Old East Slavic",
+  	"text": "Вьси сѧ людиѥ родѧть свободьни и ровьни въ чьсти та въ правьдѣ. И одарєни сѫть розѹмъмь и дѹшєѭ. И дѣıати имъ къ собѣ ıако мєжю братъı."
   }
 }
