@@ -966,6 +966,12 @@
     "text": "ᛅᛚᛁᛦ᛬ᛘᛁᚾ᛬ᛁᛦᚢ᛬ᛒᚢᚱᚾᛁᛦ᛬ᚠᚱᛁᛅᛚᛋᛁᛦ᛬ᛅᚢᚴ᛬ᛁᛅᚠᚾᛁᛦ᛬ᛅᛏ᛬ᚢᛁᚱᚦᛁᚴᚢ᛬ᛅᚢᚴ᛬ᚱᛁᛏᚢᛘ᛬ᚦᛅᛁᛦ᛬ᛁᛦᚢ᛬ᛅᛚᛁᛦ᛬ᚢᛁᛏᛁ᛬ᚴᚢᛏᛁᛦ᛬ᛅᚢᚴ᛬ᛋᛅᛘᚢᛁᛋᚴᚢ᛬ᛅᚢᚴ᛬ᛋᚴᚢᛚᚢ᛬ᚴᛅᚱᛅ᛬ᚼᚢᛅᛦ᛬ᛏᛁᛚ᛬ᛅᚾᛅᚱᛋ᛬ᛒᚱᚢᚦᚢᚱᛚᛁᚴᛅ"
   },
   "tgl": {
+    "key": "fil",
+    "iso3": "fil",
+    "display": "Filipino",
+    "text": "Ang lahat ng tao'y isinilang na malaya at pantay-pantay sa karangalan at mga karapatan. Sila'y pinagkalooban ng katwiran at budhi at dapat magpalagayan ang isa't isa sa diwa ng pagkakapatiran."
+  },
+  "tgl": {
     "key": "tgl",
     "iso3": "tgl",
     "display": "Tagalog",
