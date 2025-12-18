@@ -1724,5 +1724,20 @@
         "say"
       ]
     }
-  ]
+  ],
+  "axes": {
+    "dialect": { "type": "tagset" },
+    "script":  { "type": "categorical" },
+    "period":  { "type": "interval" },
+    "region":  { "type": "graph" },
+    "orth":    { "type": "categorical" },
+    "register": { "type": "categorical" },
+    "unicode_normalization": { "type": "categorical" }
+  },
+  "parsing_heuristics": {
+    "subtag_kinds": {
+      "script": "^[A-Z][a-z]{3}$",
+      "dialect": "^[a-z0-9]{2,8}$"
+    }
+  }
 }
