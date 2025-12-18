@@ -1093,7 +1093,7 @@
 	  "dialects": {
 		"ara": {
 		  "name": "Aranese",
-	      "aliases": ["oci-ara"],
+	      "aliases": ["oci-ara", "oci-ar"],
 	      "variants": ["Occitan (Aranese)"],
 		  "regions": ["aran_valley"]
 		},
