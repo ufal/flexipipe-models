@@ -71,19 +71,6 @@
       "aliases": []
     },
     {
-      "iso_639_1": null,
-      "iso_639_2": null,
-      "iso_639_3": null,
-      "primary_name": "Aranese",
-      "variants": [
-        "aranese",
-        "occitan (aranese)"
-      ],
-      "aliases": [
-        "oci-ar"
-      ]
-    },
-    {
       "iso_639_1": "hy",
       "iso_639_2": "hye",
       "iso_639_3": "hye",
@@ -1096,18 +1083,39 @@
       ],
       "aliases": []
     },
-    {
-      "iso_639_1": null,
-      "iso_639_2": null,
-      "iso_639_3": "oci",
-      "primary_name": "Occitan",
-      "variants": [
-        "occitan"
-      ],
-      "aliases": [
-        "oc"
-      ]
-    },
+	{
+	  "iso_639_1": "oc",
+	  "iso_639_2": "oci",
+	  "iso_639_3": "oci",
+	  "primary_name": "Occitan",
+	  "variants": ["occitan"],
+	  "aliases": ["oci"],
+	  "dialects": {
+		"ara": {
+		  "name": "Aranese",
+	      "aliases": ["oci-ara"],
+	      "variants": ["Occitan (Aranese)"],
+		  "regions": ["aran_valley"]
+		},
+		"auv": {
+		  "name": "Auvergnat",
+	      "aliases": ["oci-auv"],
+	      "variants": ["Occitan (Auvergnat)"],
+		  "regions": ["auvergne"]
+		}
+	  },
+	  "regions": {
+		"occitania": {
+		  "parents": []
+		},
+		"auvergne": {
+		  "parents": ["occitania"]
+		},
+		"aran_valley": {
+		  "parents": ["occitania", "pyrenees"]
+		}
+	  }
+	},
     {
       "iso_639_1": null,
       "iso_639_2": null,
