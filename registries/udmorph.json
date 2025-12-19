@@ -1,0 +1,642 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-19T09:58:51Z",
+  "sources": {
+    "official": [
+      {
+        "backend": "udmorph",
+        "model": "gsw-als-restaure",
+        "language_iso": "gsw-als",
+        "language_name": "Alsatian",
+        "features": "lemma, upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "oci-ara-corpuswiki",
+        "language_iso": "oci-ara",
+        "language_name": "Aranese (Occitan)",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "awa-kmi",
+        "language_iso": "awa",
+        "language_name": "Awadhi",
+        "features": "upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:bam",
+        "language_iso": "bam",
+        "language_name": "Bambara",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:bre",
+        "language_iso": "bre",
+        "language_name": "Breton",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:bre&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "stanza:bxr",
+        "language_iso": "bxr",
+        "language_name": "Buryat",
+        "features": "lemma, upos, feats, deprel, head",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=stanza:bxr&text={text}",
+        "tagger": "Stanza",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:ckt",
+        "language_iso": "ckt",
+        "language_name": "Chukot",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "luo-dho-kenpos",
+        "language_iso": "luo",
+        "language_name": "Dholuo",
+        "features": "upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "ewe-makashane",
+        "language_iso": "ewe",
+        "language_name": "Ewe",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "fil-matthewgo",
+        "language_iso": "fil",
+        "language_name": "Filipino",
+        "features": "xpos, *upos",
+        "endpoint_url": "https://github.com/matthewgo/FilipinoStanfordPOSTagger",
+        "tagger": "StanfordPOS",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "fon-makashane",
+        "language_iso": "fon",
+        "language_name": "Fon",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:fry",
+        "language_iso": "fry",
+        "language_name": "Frisian",
+        "features": "lemma, upos, xpos, feats, deprel, head",
+        "endpoint_url": "https://frisian.eu/udpipeservice/udpipe/process/conllu",
+        "tagger": "UDPIPE",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:aln",
+        "language_iso": "aln",
+        "language_name": "Gheg",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:aln&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "bbj-makashane",
+        "language_iso": "bbj",
+        "language_name": "Ghomala",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:gub",
+        "language_iso": "gub",
+        "language_name": "Guajajára",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:gub&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "hau-makashane",
+        "language_iso": "hau",
+        "language_name": "Hausa",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "ibo-makashane",
+        "language_iso": "ibo",
+        "language_name": "Igbo",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:nde",
+        "language_iso": "nbl",
+        "language_name": "isiNdebele",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "xho-makashane",
+        "language_iso": "xho",
+        "language_name": "isiXhosa",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "zul-makashane",
+        "language_iso": "zul",
+        "language_name": "isiZulu",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:jvn",
+        "language_iso": "jvn",
+        "language_name": "Javanese",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:jvn&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:kab",
+        "language_iso": "kab",
+        "language_name": "Kabule",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:kab&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:kaz",
+        "language_iso": "kaz",
+        "language_name": "Kazakh",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:kaz&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "kin-makashane",
+        "language_iso": "kin",
+        "language_name": "Kinyarwanda",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:kmr",
+        "language_iso": "kmr",
+        "language_name": "Kurmanji",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:kir",
+        "language_iso": "kir",
+        "language_name": "Kyrgyz",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "lad-lat-corpuswiki",
+        "language_iso": "lad",
+        "language_name": "Ladino (Latin)",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:lij",
+        "language_iso": "lij",
+        "language_name": "Ligurian",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "bxk-kenpos",
+        "language_iso": "bxk",
+        "language_name": "Lubukusu",
+        "features": "upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "lug-makashane",
+        "language_iso": "lug",
+        "language_name": "Luganda",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "rag-kenpos",
+        "language_iso": "rag",
+        "language_name": "Lulogooli",
+        "features": "upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "lri-kenpos",
+        "language_iso": "lri",
+        "language_name": "Lumarachi",
+        "features": "upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "classla:mkd",
+        "language_iso": "mkd",
+        "language_name": "Macedonian",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&input={input}&model=classla:mkd&text={text}",
+        "tagger": "ClassLA",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "zsm-gsd",
+        "language_iso": "zsm",
+        "language_name": "Malay",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "mos-makashane",
+        "language_iso": "mos",
+        "language_name": "Moore",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:azz",
+        "language_iso": "azz",
+        "language_name": "Nahuatl (Highland Puebla)",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:azz&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:nhi",
+        "language_iso": "nhi",
+        "language_name": "Nahuatl (Western Sierra Puebla)",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:nhi&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:yrl",
+        "language_iso": "yrl",
+        "language_name": "Nheengatu",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "nya-makashane",
+        "language_iso": "nya",
+        "language_name": "Nyanja",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "oci-restaure",
+        "language_iso": "oci",
+        "language_name": "Occitan",
+        "features": "lemma, upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "ang-iswoc",
+        "language_iso": "ang",
+        "language_name": "Old English",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "sga-dipsgg",
+        "language_iso": "sga",
+        "language_name": "Old Irish",
+        "features": "lemma, upos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "xcl-proiel",
+        "language_iso": "xcl",
+        "language_name": "Old Norse",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "por-old-iswoc",
+        "language_iso": "por-old",
+        "language_name": "Old Portuguese",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "osp-iswoc",
+        "language_iso": "osp",
+        "language_name": "Old Spanish",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "pap-aru-1",
+        "language_iso": "pap-aru",
+        "language_name": "Papiamento (Aruba)",
+        "features": "lemma, upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "pcd-restaure",
+        "language_iso": "pcd",
+        "language_name": "Picard",
+        "features": "lemma, upos, xpos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:pan",
+        "language_iso": "pan",
+        "language_name": "Punjabi",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:sot",
+        "language_iso": "sot",
+        "language_name": "Sesotho",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:nso",
+        "language_iso": "nso",
+        "language_name": "Sesotho sa Leboa",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:tsn",
+        "language_iso": "tsn",
+        "language_name": "Setswana",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "shp-vasquez",
+        "language_iso": "shp",
+        "language_name": "Shipibo-Konibo",
+        "features": "unknown",
+        "endpoint_url": "https://github.com/Tarotis/Building-an-Endangered-Language-Resource-in-the-Classroom/blob/main/data/raw/shipibo-2018jul4.converted.conllu",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "sna-makashane",
+        "language_iso": "sna",
+        "language_name": "Shona",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:snd",
+        "language_iso": "snd",
+        "language_name": "Sindhi",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://github.com/mazharaliabro/UD_Sindhi-Mazhar-Dootio",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:ssw",
+        "language_iso": "ssw",
+        "language_name": "SiSwati",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "stanza:hsb",
+        "language_iso": "hsb",
+        "language_name": "Sorbian (Upper)",
+        "features": "lemma, upos, xpos, feats, deprel, head",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=stanza:hsb&text={text}",
+        "tagger": "Stanza",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "srn-corpuswiki",
+        "language_iso": "srn",
+        "language_name": "Sranan Tongo",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "swa-makashane",
+        "language_iso": "swh",
+        "language_name": "Swahili",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:ven",
+        "language_iso": "ven",
+        "language_name": "Tshivenda",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "twi-makashane",
+        "language_iso": "twi",
+        "language_name": "Twi",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:sjo",
+        "language_iso": "sjo",
+        "language_name": "Xibe",
+        "features": "lemma, upos, xpos, feats",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag&model=udpipe:sjo&text={text}",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "ctext:tso",
+        "language_iso": "tso",
+        "language_name": "Xitsonga",
+        "features": "xpos, upos*",
+        "endpoint_url": "https://hlt.nwu.ac.za/",
+        "tagger": "CTexT",
+        "post_spec": ""
+      },
+      {
+        "backend": "udmorph",
+        "model": "yor-makashane",
+        "language_iso": "yor",
+        "language_name": "Yoruba",
+        "features": "upos",
+        "endpoint_url": "https://lindat.mff.cuni.cz/services/teitok-live/udmorph/index.php?action=tag&act=tag",
+        "tagger": "UDPIPE1",
+        "post_spec": "data:text,model:model"
+      },
+      {
+        "backend": "udmorph",
+        "model": "udpipe:say",
+        "language_iso": "say",
+        "language_name": "Zaar",
+        "features": "lemma, upos, xpos, feats",
+        "tagger": "UDPIPE1",
+        "post_spec": ""
+      }
+    ],
+    "flexipipe": [],
+    "community": []
+  }
+}

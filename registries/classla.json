@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-19T21:21:43Z",
+  "backend_version": "any",
+  "sources": {
+    "official": [
+      {
+        "model": "hr-standard",
+        "language_iso": "hr",
+        "language_name": "Croatian",
+        "package": "set",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser",
+          "ner"
+        ],
+        "preferred": true,
+        "description": "ClassLA model for Croatian (standard variant)"
+      },
+      {
+        "model": "hr-nonstandard",
+        "language_iso": "hr",
+        "language_name": "Croatian (nonstandard)",
+        "package": "set",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser",
+          "ner"
+        ],
+        "preferred": false,
+        "description": "ClassLA model for Croatian (nonstandard variant)"
+      },
+      {
+        "model": "sr-standard",
+        "language_iso": "sr",
+        "language_name": "Serbian",
+        "package": "set",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser",
+          "ner"
+        ],
+        "preferred": true,
+        "description": "ClassLA model for Serbian (standard variant)"
+      },
+      {
+        "model": "sr-nonstandard",
+        "language_iso": "sr",
+        "language_name": "Serbian (nonstandard)",
+        "package": "set",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser",
+          "ner"
+        ],
+        "preferred": false,
+        "description": "ClassLA model for Serbian (nonstandard variant)"
+      },
+      {
+        "model": "bg-standard",
+        "language_iso": "bg",
+        "language_name": "Bulgarian",
+        "package": "btb",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser",
+          "ner"
+        ],
+        "preferred": true,
+        "description": "ClassLA model for Bulgarian (standard variant)"
+      },
+      {
+        "model": "mk-standard",
+        "language_iso": "mk",
+        "language_name": "Macedonian",
+        "package": "mk",
+        "features": "tokenization, upos, lemma, xpos, feats",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer"
+        ],
+        "preferred": true,
+        "description": "ClassLA model for Macedonian (standard variant). Note: This model does not include dependency parsing."
+      },
+      {
+        "model": "sl-standard",
+        "language_iso": "sl",
+        "language_name": "Slovenian",
+        "package": "ssj",
+        "features": "tokenization, upos, lemma, xpos, feats, depparse",
+        "components": [
+          "tokenizer",
+          "tagger",
+          "lemmatizer",
+          "parser"
+        ],
+        "preferred": true,
+        "description": "ClassLA model for Slovenian (standard variant)"
+      }
+    ],
+    "flexipipe": [],
+    "community": []
+  }
+}
+
