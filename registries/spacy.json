@@ -800,17 +800,6 @@
         "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
         "size_mb": null
       },
-      {
-        "model": "yoruba-pos-tagger-afroxlmr",
-        "language_iso": "yo",
-        "language_name": "Yoruba",
-        "backend_version": ">=3.0.0",
-        "download_url": "https://huggingface.co/masakhane/yoruba-pos-tagger-afroxlmr",
-        "description": "Masakhane Yoruba POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset.",
-        "preferred": true,
-        "features": "tokenization, upos, xpos",
-        "size_mb": null
-      }
     ]
   }
 }
