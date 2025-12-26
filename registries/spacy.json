@@ -777,6 +777,40 @@
       }
     ],
     "flexipipe": [],
-    "community": []
+    "community": [
+      {
+        "model": "hu_core_news_lg",
+        "language_iso": "hu",
+        "language_name": "Hungarian",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/huspacy/hu_core_news_lg",
+        "description": "HuSpaCy large model for Hungarian. Components: tokenizer, tagger, lemmatizer, parser, ner. CPU-optimized.",
+        "preferred": true,
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "size_mb": null
+      },
+      {
+        "model": "hu_core_news_trf",
+        "language_iso": "hu",
+        "language_name": "Hungarian",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/huspacy/hu_core_news_trf",
+        "description": "HuSpaCy transformer model for Hungarian (huBERT-based). Components: tokenizer, tagger, lemmatizer, parser, ner. GPU-optimized.",
+        "preferred": false,
+        "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
+        "size_mb": null
+      },
+      {
+        "model": "yoruba-pos-tagger-afroxlmr",
+        "language_iso": "yo",
+        "language_name": "Yoruba",
+        "backend_version": ">=3.0.0",
+        "download_url": "https://huggingface.co/masakhane/yoruba-pos-tagger-afroxlmr",
+        "description": "Masakhane Yoruba POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset.",
+        "preferred": true,
+        "features": "tokenization, upos, xpos",
+        "size_mb": null
+      }
+    ]
   }
 }
