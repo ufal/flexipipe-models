@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-26T12:00:00Z",
+  "backend_version": ">=4.0.0",
+  "sources": {
+    "official": [],
+    "flexipipe": [],
+    "community": [
+      {
+        "model": "masakhane/yoruba-pos-tagger-afroxlmr",
+        "language_iso": "yo",
+        "language_name": "Yoruba",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/yoruba-pos-tagger-afroxlmr",
+        "description": "Masakhane Yoruba POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      }
+    ]
+  }
+}
+
