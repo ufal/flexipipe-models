@@ -39,6 +39,9 @@
         "description": "Masakhane Yoruba POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
         "preferred": true,
         "tasks": ["tag"],
+		"requires_segmentation": true,
+		"requires_tokenization": false,
+		"preferred_segmenter": "sentencepiece",
         "model_type": "token-classification",
         "features": "tokenization, upos, xpos"
       },

@@ -587,13 +587,7 @@
     "display": "Northern Kissi",
     "text": "wanda tu cio ME pilOO o wolOO ni, le waa o ba ndOO cio, o bEElen kenando ni, o tOngdo ni, bEtu nOn yiyando a kullo, o kon ni naan tu dua mim maalyan kalapilOyEyi ni."
   },
-  "afr": {
-    "key": "kaa",
-    "iso3": "kaa",
-    "display": "Kara-Kalpak",
-    "text": "Ҳәмме адамлар өз қәдир-қымбаты және ҳуқықларында еркин ҳәм тең болып туўылады. Оларға ақыл ҳәм ҳүждан берилген болып, бир-бирине туўысқанлық руўхындағы қатнаста болыўы тийис."
-  },
-  "af": {
+  "kaa": {
     "key": "kaa",
     "iso3": "kaa",
     "display": "Kara-Kalpak",
@@ -1955,7 +1949,7 @@
     "display": "Hausa",
     "text": "Su dai ‘yan-adam, ana haifuwarsu ne duka ‘yantattu, kuma kowannensu na da mutunci da hakkoki daidai da na kowa. Suna da hankali da tunani, saboda haka duk abin da za su aikata wa juna, ya kamata su yi shi a cikin ‘yan-uwanci."
   },
-  "ces": {
+  "ina": {
     "key": "ina",
     "iso3": "ina",
     "display": "Interlingua",
@@ -2274,7 +2268,7 @@
     "text": "Sva ljudska bića rađaju se slobodna i jednaka u dostojanstvu i pravima. Ona su obdarena razumom i sviješću i treba da jedno prema drugome postupaju u duhu bratstva."
   },
   "lad": {
-    "key": "lad-lat",
+    "key": "lad-Latn",
     "iso3": "lad",
     "display": "Ladino",
     "text": "Kada benadam i benadam nase forro i igual en dinyidad i en derechos. Todos son baale razon i konsiensia i deven komportarsen los unos verso los otros kon fraternidad."
@@ -2298,7 +2292,7 @@
     "text": "Øll menniskju eru fødd fræls og jøvn til virðingar og mannarættindi. Tey hava skil og samvitsku og eiga at fara hvørt um annað í bróðuranda."
   },
   "lad-heb": {
-    "key": "lad-heb",
+    "key": "lad-Hebr",
     "iso3": "lad",
     "display": "Ladino",
     "text": "קאדח בנאדם אי בנאדם נאסי פוררו אי איגואו אין דינייידאד אין דיריג׳וס. טודוס סון בעלה ראזון אי קונסיינסיה אי דיב׳ין קומפורטארסין לוס אונוס ב׳ירסו לוס אוטרוס קון פראטירנידאד."
@@ -2555,8 +2549,8 @@
     "display": "Ambo-Pasco Quechua",
     "text": "Lapan runa kay pachach'u yurin libri kawananpaq, lapanchinuy iwal respetasha kananpaqmi, mana pipis jarupänanpaq, lapanpis iwal yarpach'akuy yach'aqmi, alita mana alita tantiyar kawananpaq. Chaynuy runa masinwan juknin jukninwan kuyanakur kapäkuchun"
   },
-  "bak-lat": {
-    "key": "bak-lat",
+  "bak-Latn": {
+    "key": "bak-Latn",
     "iso3": "bak",
     "display": "Bashkir",
     "text": "Barlıq keşelär irekle, däräjäläre häm xoquqtarı tiñ bulıp tıualar. Ular aqıl häm vıjdan eyähe häm ber-berehenä qarata qärźäşlek ruxında xäräkät itergä teyeştär."
@@ -2759,8 +2753,8 @@
     "display": "Mossi",
     "text": "Ninsaalbã fãa sã n doge, ned fãa so a menga, ned pa rogd n yaa yamb ye, nebã fãa zema taab b yel-segdɩ la b burkĩndlem wɛɛngẽ. Nebã fãa tara yam la tagsgo, ned fãa togame n vɩɩnd ne a to saam-biir pʊgẽ."
   },
-  "lad-lat": {
-    "key": "lad-lat",
+  "lad-Latn": {
+    "key": "lad-Latn",
     "iso3": "lad",
     "display": "Ladino",
     "text": "Kada benadam i benadam nase forro i igual en dinyidad i en derechos. Todos son baale razon i konsiensia i deven komportarsen los unos verso los otros kon fraternidad."
@@ -2945,10 +2939,10 @@
     "display": "Central Kurdish",
     "text": "Hemû mirov azad û di weqar û mafan de wekhev tên dinyayê. Ew xwedî hiş û şuûr in û divê li hember hev bi zihniyeteke bratiyê bilivin."
   },
-  "bel-lat": {
-    "key": "bel-lat",
+  "bel-Latn": {
+    "key": "bel-Latn",
     "iso3": "bel",
-    "display": "Belarusian",
+    "display": "Belarusian (Latin)",
     "text": "Usie ludzi naradžajucca svabodnymi i roŭnymi ŭ svajoj hodnaści i pravach. Jany nadzieleny rozumam i sumleńniem i pavinny stavicca adzin da adnaho ŭ duchu bractva."
   },
   "skr": {
