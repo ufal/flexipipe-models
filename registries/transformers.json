@@ -7,6 +7,30 @@
     "flexipipe": [],
     "community": [
       {
+        "model": "masakhane/swahili-pos-tagger-afroxlmr",
+        "language_iso": "swa",
+        "language_name": "Swahili",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/swahili-pos-tagger-afroxlmr",
+        "description": "Masakhane Swahili POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/hausa-pos-tagger-afroxlmr",
+        "language_iso": "ha",
+        "language_name": "Hausa",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/hausa-pos-tagger-afroxlmr",
+        "description": "Masakhane Hausa POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
         "model": "masakhane/yoruba-pos-tagger-afroxlmr",
         "language_iso": "yo",
         "language_name": "Yoruba",
@@ -17,8 +41,211 @@
         "tasks": ["tag"],
         "model_type": "token-classification",
         "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/luganda-pos-tagger-afroxlmr",
+        "language_iso": "lg",
+        "language_name": "Luganda",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/luganda-pos-tagger-afroxlmr",
+        "description": "Masakhane Luganda POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/igbo-pos-tagger-afroxlmr",
+        "language_iso": "ig",
+        "language_name": "Igbo",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/igbo-pos-tagger-afroxlmr",
+        "description": "Masakhane Igbo POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/bambara-pos-tagger-afroxlmr",
+        "language_iso": "bm",
+        "language_name": "Bambara",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/bambara-pos-tagger-afroxlmr",
+        "description": "Masakhane Bambara POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/ghomala-pos-tagger-afroxlmr",
+        "language_iso": "bbj",
+        "language_name": "Ghomala",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/ghomala-pos-tagger-afroxlmr",
+        "description": "Masakhane Ghomala POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/ewe-pos-tagger-afroxlmr",
+        "language_iso": "ee",
+        "language_name": "Ewe",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/ewe-pos-tagger-afroxlmr",
+        "description": "Masakhane Ewe POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/fon-pos-tagger-afroxlmr",
+        "language_iso": "fon",
+        "language_name": "Fon",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/fon-pos-tagger-afroxlmr",
+        "description": "Masakhane Fon POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/chichewa-pos-tagger-afroxlmr",
+        "language_iso": "ny",
+        "language_name": "Chichewa",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/chichewa-pos-tagger-afroxlmr",
+        "description": "Masakhane Chichewa POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/luo-pos-tagger-afroxlmr",
+        "language_iso": "luo",
+        "language_name": "Luo",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/luo-pos-tagger-afroxlmr",
+        "description": "Masakhane Luo POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/kinyarwanda-pos-tagger-afroxlmr",
+        "language_iso": "rw",
+        "language_name": "Kinyarwanda",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/kinyarwanda-pos-tagger-afroxlmr",
+        "description": "Masakhane Kinyarwanda POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/naija-pos-tagger-afroxlmr",
+        "language_iso": "pcm",
+        "language_name": "Nigerian Pidgin",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/naija-pos-tagger-afroxlmr",
+        "description": "Masakhane Nigerian Pidgin (Naija) POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/shona-pos-tagger-afroxlmr",
+        "language_iso": "sn",
+        "language_name": "Shona",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/shona-pos-tagger-afroxlmr",
+        "description": "Masakhane Shona POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/wolof-pos-tagger-afroxlmr",
+        "language_iso": "wo",
+        "language_name": "Wolof",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/wolof-pos-tagger-afroxlmr",
+        "description": "Masakhane Wolof POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/xhosa-pos-tagger-afroxlmr",
+        "language_iso": "xh",
+        "language_name": "Xhosa",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/xhosa-pos-tagger-afroxlmr",
+        "description": "Masakhane Xhosa POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/setswana-pos-tagger-afroxlmr",
+        "language_iso": "tn",
+        "language_name": "Setswana",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/setswana-pos-tagger-afroxlmr",
+        "description": "Masakhane Setswana POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/zulu-pos-tagger-afroxlmr",
+        "language_iso": "zu",
+        "language_name": "Zulu",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/zulu-pos-tagger-afroxlmr",
+        "description": "Masakhane Zulu POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/twi-pos-tagger-afroxlmr",
+        "language_iso": "tw",
+        "language_name": "Twi",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/twi-pos-tagger-afroxlmr",
+        "description": "Masakhane Twi POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
+      },
+      {
+        "model": "masakhane/mossi-pos-tagger-afroxlmr",
+        "language_iso": "mos",
+        "language_name": "Mossi",
+        "backend_version": ">=4.0.0",
+        "download_url": "https://huggingface.co/masakhane/mossi-pos-tagger-afroxlmr",
+        "description": "Masakhane Mossi POS tagger based on AfroXLMR. Trained on MasakhaPOS dataset. Task: token classification (POS tagging).",
+        "preferred": true,
+        "tasks": ["tag"],
+        "model_type": "token-classification",
+        "features": "tokenization, upos, xpos"
       }
     ]
   }
 }
-
