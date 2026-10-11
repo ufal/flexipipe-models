@@ -21,7 +21,8 @@
           "file": "voxceleb_resnet34_LM.onnx"
         },
         "licence_note": "model weights CC BY 4.0 (attribution: Wang et al., Wespeaker, ICASSP 2023); trained on VoxCeleb2, whose site describes it as for research purposes, with the audio's copyright held by the original YouTube uploaders. Check that this fits your use.",
-        "description": "WeSpeaker ResNet34-LM speaker embeddings (26.5 MB ONNX, not gated) + flexasr's clustering. Trained on VoxCeleb2; see the licence note. Needs onnxruntime; no account."
+        "description": "WeSpeaker ResNet34-LM speaker embeddings (26.5 MB ONNX, not gated) + flexasr's clustering. Trained on VoxCeleb2; see the licence note. Needs onnxruntime; no account.",
+        "size_mb": 27
       }
     ],
     "community": []

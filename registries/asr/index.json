@@ -3,6 +3,7 @@
   "last_updated": "2026-10-11",
   "tool": "flexasr",
   "files": [
+    "crisperwhisper.json",
     "faster-whisper.json",
     "pyannote.json",
     "speaker-onnx.json",

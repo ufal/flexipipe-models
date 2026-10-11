@@ -13,7 +13,8 @@
         "licence": "MIT",
         "timestamps": "word",
         "priority": 40,
-        "description": "Whisper large-v3 (CTranslate2). Strong for big languages, ~99 languages; normalizes (drops fillers). CPU int8 works but is slow."
+        "description": "Whisper large-v3 (CTranslate2). Strong for big languages, ~99 languages; normalizes (drops fillers). CPU int8 works but is slow.",
+        "size_mb": 3091
       },
       {
         "model": "faster-whisper-small",
@@ -23,7 +24,8 @@
         "licence": "MIT",
         "timestamps": "word",
         "priority": 10,
-        "description": "Small Whisper for quick runs and tests."
+        "description": "Small Whisper for quick runs and tests.",
+        "size_mb": 486
       },
       {
         "model": "faster-whisper-tiny",
@@ -33,29 +35,8 @@
         "licence": "MIT",
         "timestamps": "word",
         "priority": 1,
-        "description": "Tiny Whisper: smoke tests only."
-      },
-      {
-        "model": "crisperwhisper-ct2",
-        "task": "transcribe",
-        "provider": "faster-whisper",
-        "source": "hf:nyrahealth/faster_CrisperWhisper",
-        "licence": "CC-BY-NC-4.0",
-        "restricted": [
-          "noncommercial"
-        ],
-        "languages": [
-          "eng",
-          "deu"
-        ],
-        "modes": [
-          "verbatim",
-          "clean"
-        ],
-        "timestamps": "word",
-        "priority": 60,
-        "description": "CTranslate2 port of CrisperWhisper 1.x (English, German); verbatim. CrisperWhisper 2.0 (10 languages incl. French) needs a transformers provider (planned).",
-        "language_iso": "eng,deu"
+        "description": "Tiny Whisper: smoke tests only.",
+        "size_mb": 78
       }
     ],
     "community": []

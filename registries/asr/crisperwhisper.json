@@ -1,0 +1,154 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-11",
+  "tool": "flexasr",
+  "provider": "crisperwhisper",
+  "sources": {
+    "official": [
+      {
+        "model": "crisperwhisper2-large",
+        "task": "transcribe",
+        "provider": "crisperwhisper",
+        "source": "hf:nyralabs/CrisperWhisper2.0_large",
+        "revision": "f4334f6e8193f2691212d49b20fa12d370e13896",
+        "licence": "LicenseRef-nyra-health-NC-Research-1.0",
+        "licence_verified": true,
+        "restricted": [
+          "noncommercial",
+          "outputs-noncommercial"
+        ],
+        "licence_note": "nyra health Non-Commercial Research License 1.0: the model weights and every output they generate are for non-commercial use only; commercial use needs a licence from nyra health GmbH. The inference package (crisperwhisper) is MIT.",
+        "languages": [
+          "eng",
+          "deu",
+          "spa",
+          "nld",
+          "fra",
+          "ita",
+          "pol",
+          "por",
+          "rus",
+          "swe"
+        ],
+        "modes": [
+          "verbatim",
+          "clean"
+        ],
+        "timestamps": "word",
+        "priority": 60,
+        "size_mb": 3093,
+        "language_iso": "eng,deu,spa,nld,fra,ita,pol,por,rus,swe",
+        "description": "CrisperWhisper 2.0 large: verbatim transcription (fillers, repetitions, false starts, vocal events) or intended text, with word times from trained alignment heads. Evaluated on 10 languages (human-labelled sets for English and German, synthetic verbatim sets for the others). Needs the crisperwhisper package.",
+        "devices": [
+          "cuda"
+        ]
+      },
+      {
+        "model": "crisperwhisper2-turbo",
+        "task": "transcribe",
+        "provider": "crisperwhisper",
+        "source": "hf:nyralabs/CrisperWhisper2.0_turbo",
+        "revision": "de0369c8a68025b7f6e86387b6eb5a3b369787c8",
+        "licence": "LicenseRef-nyra-health-NC-Research-1.0",
+        "licence_verified": true,
+        "restricted": [
+          "noncommercial",
+          "outputs-noncommercial"
+        ],
+        "licence_note": "nyra health Non-Commercial Research License 1.0: the model weights and every output they generate are for non-commercial use only; commercial use needs a licence from nyra health GmbH. The inference package (crisperwhisper) is MIT.",
+        "languages": [
+          "eng",
+          "deu",
+          "spa",
+          "nld",
+          "fra",
+          "ita",
+          "pol",
+          "por",
+          "rus",
+          "swe"
+        ],
+        "modes": [
+          "verbatim",
+          "clean"
+        ],
+        "timestamps": "word",
+        "priority": 55,
+        "size_mb": 1624,
+        "language_iso": "eng,deu,spa,nld,fra,ita,pol,por,rus,swe",
+        "description": "CrisperWhisper 2.0 turbo: verbatim transcription (fillers, repetitions, false starts, vocal events) or intended text, with word times from trained alignment heads. Evaluated on 10 languages (human-labelled sets for English and German, synthetic verbatim sets for the others). Needs the crisperwhisper package."
+      },
+      {
+        "model": "crisperwhisper2-medium",
+        "task": "transcribe",
+        "provider": "crisperwhisper",
+        "source": "hf:nyralabs/CrisperWhisper2.0_medium",
+        "revision": "f011e4a7869860de1ce596391d53c18bf8853e77",
+        "licence": "LicenseRef-nyra-health-NC-Research-1.0",
+        "licence_verified": true,
+        "restricted": [
+          "noncommercial",
+          "outputs-noncommercial"
+        ],
+        "licence_note": "nyra health Non-Commercial Research License 1.0: the model weights and every output they generate are for non-commercial use only; commercial use needs a licence from nyra health GmbH. The inference package (crisperwhisper) is MIT.",
+        "languages": [
+          "eng",
+          "deu",
+          "spa",
+          "nld",
+          "fra",
+          "ita",
+          "pol",
+          "por",
+          "rus",
+          "swe"
+        ],
+        "modes": [
+          "verbatim",
+          "clean"
+        ],
+        "timestamps": "word",
+        "priority": 50,
+        "size_mb": 1534,
+        "language_iso": "eng,deu,spa,nld,fra,ita,pol,por,rus,swe",
+        "description": "CrisperWhisper 2.0 medium: verbatim transcription (fillers, repetitions, false starts, vocal events) or intended text, with word times from trained alignment heads. Evaluated on 10 languages (human-labelled sets for English and German, synthetic verbatim sets for the others). Needs the crisperwhisper package."
+      },
+      {
+        "model": "crisperwhisper2-small",
+        "task": "transcribe",
+        "provider": "crisperwhisper",
+        "source": "hf:nyralabs/CrisperWhisper2.0_small",
+        "revision": "bcaecf0a584a1f600d8897fe6032b9e2e56429a7",
+        "licence": "LicenseRef-nyra-health-NC-Research-1.0",
+        "licence_verified": true,
+        "restricted": [
+          "noncommercial",
+          "outputs-noncommercial"
+        ],
+        "licence_note": "nyra health Non-Commercial Research License 1.0: the model weights and every output they generate are for non-commercial use only; commercial use needs a licence from nyra health GmbH. The inference package (crisperwhisper) is MIT.",
+        "languages": [
+          "eng",
+          "deu",
+          "spa",
+          "nld",
+          "fra",
+          "ita",
+          "pol",
+          "por",
+          "rus",
+          "swe"
+        ],
+        "modes": [
+          "verbatim",
+          "clean"
+        ],
+        "timestamps": "word",
+        "priority": 45,
+        "size_mb": 489,
+        "language_iso": "eng,deu,spa,nld,fra,ita,pol,por,rus,swe",
+        "description": "CrisperWhisper 2.0 small: verbatim transcription (fillers, repetitions, false starts, vocal events) or intended text, with word times from trained alignment heads. Evaluated on 10 languages (human-labelled sets for English and German, synthetic verbatim sets for the others). Needs the crisperwhisper package."
+      }
+    ],
+    "community": []
+  }
+}
