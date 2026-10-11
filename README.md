@@ -8,3 +8,7 @@ for those backends that were trained using flexipipe, or provided by the communi
 Available models that are not listed in the repository can be mentioned in the issues, and after verification will be added. And people interested in training new models on training data they either build themselves are acquired can do so using one of the backends listed or
 using flexiPipe as a single entry training point for various backends. And they can use [UDMorph](https://lindat.mff.cuni.cz/services/teitok-live/udmorph/) to create new training data in a guided fashion, where UDMorph now uses flexiPipe as the backend to train models on 
 the training data created in UDMorph.
+
+## Speech recognition models (flexasr)
+
+`registries/asr/` lists models for flexasr (speech recognition, speaker diarization, alignment), one file per flexasr provider, listed in `registries/asr/index.json`. The format is the same as the other registries. Each entry also records the task, the pinned revision and checksums, the licence (with any restriction such as non-commercial use, which flexasr only uses when explicitly allowed), and whether the model is gated. As with the other registries, the models are not hosted here: they are downloaded from their original source under their own licence.

@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-11",
+  "tool": "flexasr",
+  "provider": "pyannote",
+  "sources": {
+    "official": [
+      {
+        "model": "pyannote-community-1",
+        "task": "diarize",
+        "provider": "pyannote",
+        "source": "hf:pyannote/speaker-diarization-community-1",
+        "licence": "CC-BY-4.0",
+        "gated": true,
+        "priority": 50,
+        "description": "pyannote.audio 4.x. Gated: accept the conditions on Hugging Face and provide a token (HF_TOKEN). Gives full (overlapping) and exclusive diarization."
+      }
+    ],
+    "community": []
+  }
+}

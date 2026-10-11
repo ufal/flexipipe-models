@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-11",
+  "tool": "flexasr",
+  "provider": "whisperx-align",
+  "sources": {
+    "official": [
+      {
+        "model": "whisperx-wav2vec2",
+        "task": "align",
+        "provider": "whisperx-align",
+        "licence": "varies per language model",
+        "priority": 20,
+        "options": {},
+        "description": "WhisperX forced alignment with its default wav2vec2 model per language (models downloaded by whisperx; licences differ per language). Fallback aligner; better ones (Qwen3-ForcedAligner, NeMo FA) planned."
+      }
+    ],
+    "community": []
+  }
+}

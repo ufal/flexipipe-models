@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-11",
+  "tool": "flexasr",
+  "files": [
+    "faster-whisper.json",
+    "pyannote.json",
+    "speaker-onnx.json",
+    "whisperx-align.json"
+  ]
+}

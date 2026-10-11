@@ -799,7 +799,7 @@
         "preferred": false,
         "features": "tokenization, upos, lemma, xpos, feats, depparse, ner",
         "size_mb": null
-      },
+      }
     ]
   }
 }
